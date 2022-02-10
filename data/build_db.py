@@ -30,7 +30,8 @@ locale.setlocale(locale.LC_ALL, locale="en_AU")
 ROOT_DIR = Path(__file__).parent.parent
 LAMBDA_DATA_PATH = ROOT_DIR / "donationsbot" / "functions" / "bot" / "bot" / "data"
 
-TABLE_TWITTER_DONORS = "tables/twitter_donors.md"
+TABLE_TWITTER_DONORS_PAGE_1 = "tables/twitter_donors_page_1.md"
+TABLE_TWITTER_DONORS_PAGE_2 = "tables/twitter_donors_page_2.md"
 TABLE_PARTIES = "tables/parties.md"
 
 DONATIONS_CSV_FILE = "src/2022/Donations Made.csv"
@@ -42,13 +43,14 @@ DB_DONOR = LAMBDA_DATA_PATH / "donors.json"
 
 def create_db_twitter_to_donors():
     data = defaultdict(list)
-    with open(TABLE_TWITTER_DONORS) as f:
-        reader = WhitespaceStrippingDictReader(f=f, delimiter="|")
-        for row in reader:
-            if "---" in row[TARGET_DONOR]:
-                continue
-            for handle in row[TARGET_TWITTER].split():
-                data[handle.lower()].append(row[TARGET_DONOR])
+    for filename in [TABLE_TWITTER_DONORS_PAGE_1, TABLE_TWITTER_DONORS_PAGE_2]:
+        with open(filename) as f:
+            reader = WhitespaceStrippingDictReader(f=f, delimiter="|")
+            for row in reader:
+                if "---" in row[TARGET_DONOR]:
+                    continue
+                for handle in row[TARGET_TWITTER].split():
+                    data[handle.lower()].append(row[TARGET_DONOR])
     with open(DB_TWITTER_HANDLES, "w") as f:
         json.dump(data, fp=f)
 

@@ -10,7 +10,7 @@ from typing import DefaultDict
 
 from csv2md.table import Table
 
-from .utils import (
+from utils import (
     WhitespaceStrippingDictReader,
     SOURCE_VALUE,
     SOURCE_DONATION_MADE_TO,
@@ -25,7 +25,8 @@ from .utils import (
 locale.setlocale(locale.LC_ALL, "en_AU")
 
 DONATIONS_FILE = "src/2022/Donations Made.csv"
-TWITTER_MAPPING_MARKDOWN_FILE = "tables/twitter_donors.md"
+TWITTER_MAPPING_MARKDOWN_FILE_PAGE_1 = "tables/twitter_donors_page_1.md"
+TWITTER_MAPPING_MARKDOWN_FILE_PAGE_2 = "tables/twitter_donors_page_2.md"
 PARTY_GROUPS_MARKDOWN_FILE = "tables/parties.md"
 
 
@@ -37,12 +38,16 @@ PARTY_GROUPS_MARKDOWN_FILE = "tables/parties.md"
 def get_existing_twitter_handles() -> DefaultDict:
     twitter_handles = defaultdict(str)
     try:
-        with open(TWITTER_MAPPING_MARKDOWN_FILE) as markdown_file:
-            reader = WhitespaceStrippingDictReader(f=markdown_file, delimiter="|")
-            for row in reader:
-                if "---" in row[TARGET_DONOR]:
-                    continue
-                twitter_handles[row[TARGET_DONOR]] = row[TARGET_TWITTER]
+        for filename in [
+            TWITTER_MAPPING_MARKDOWN_FILE_PAGE_1,
+            TWITTER_MAPPING_MARKDOWN_FILE_PAGE_2,
+        ]:
+            with open(filename) as markdown_file:
+                reader = WhitespaceStrippingDictReader(f=markdown_file, delimiter="|")
+                for row in reader:
+                    if "---" in row[TARGET_DONOR]:
+                        continue
+                    twitter_handles[row[TARGET_DONOR]] = row[TARGET_TWITTER]
     except FileNotFoundError:
         pass
     return twitter_handles
@@ -61,30 +66,43 @@ def build_twitter_donor_table() -> None:
             counter.update({row[SOURCE_DONOR_NAME]: int(row[SOURCE_VALUE])})
 
     # create a new temporary csv file to render as markdown
-    with StringIO() as temp_csv_file:
-        writer = csv.DictWriter(
-            f=temp_csv_file,
-            fieldnames=[TARGET_TWITTER, TARGET_DONOR, TARGET_TOTAL_DONATIONS],
-        )
-        writer.writeheader()
-        for donor, value in counter.most_common():
-            formatted_donations = locale.currency(value, grouping=True).split(".")[0]
-            writer.writerow(
-                {
-                    TARGET_TWITTER: twitter_handles[donor],
-                    # replace "|" characters to avoid messing with markdown tables
-                    TARGET_DONOR: donor.replace("|", "/"),
-                    TARGET_TOTAL_DONATIONS: formatted_donations,
-                }
+    with StringIO() as temp_csv_file_page_1:
+        with StringIO() as temp_csv_file_page_2:
+            writer_page_1 = csv.DictWriter(
+                f=temp_csv_file_page_1,
+                fieldnames=[TARGET_TWITTER, TARGET_DONOR, TARGET_TOTAL_DONATIONS],
             )
+            writer_page_2 = csv.DictWriter(
+                f=temp_csv_file_page_2,
+                fieldnames=[TARGET_TWITTER, TARGET_DONOR, TARGET_TOTAL_DONATIONS],
+            )
+            writer_page_1.writeheader()
+            writer_page_2.writeheader()
+            for donor, value in counter.most_common():
+                writer = writer_page_1 if value > 50000 else writer_page_2
+                formatted_donations = locale.currency(value, grouping=True).split(".")[
+                    0
+                ]
+                writer.writerow(
+                    {
+                        TARGET_TWITTER: twitter_handles[donor],
+                        # replace "|" characters to avoid messing with markdown tables
+                        TARGET_DONOR: donor.replace("|", "/"),
+                        TARGET_TOTAL_DONATIONS: formatted_donations,
+                    }
+                )
 
-        # seek to 0 so we can read back the file.
-        temp_csv_file.seek(0)
+            # seek to 0 so we can read back the file.
+            temp_csv_file_page_1.seek(0)
+            temp_csv_file_page_2.seek(0)
 
-        markdown_table = Table.parse_csv(file=temp_csv_file)
+            markdown_table_page_1 = Table.parse_csv(file=temp_csv_file_page_1)
+            markdown_table_page_2 = Table.parse_csv(file=temp_csv_file_page_2)
 
-        with open(TWITTER_MAPPING_MARKDOWN_FILE, "w") as markdown_file:
-            markdown_file.write(markdown_table.markdown())
+            with open(TWITTER_MAPPING_MARKDOWN_FILE_PAGE_1, "w") as markdown_file:
+                markdown_file.write(markdown_table_page_1.markdown())
+            with open(TWITTER_MAPPING_MARKDOWN_FILE_PAGE_2, "w") as markdown_file:
+                markdown_file.write(markdown_table_page_2.markdown())
 
 
 #
