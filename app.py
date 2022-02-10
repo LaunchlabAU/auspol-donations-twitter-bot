@@ -10,7 +10,7 @@ app = cdk.App()
 DonationsbotStack(
     app,
     "DonationsbotStack",
-    env=cdk.Environment(account="520128592982", region="ap-southeast-2"),
+    env=cdk.Environment(account="240067924203", region="ap-southeast-2"),
 )
 
 app.synth()
