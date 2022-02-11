@@ -5,7 +5,6 @@ Map twitter handles to donors in markdown to make it easy to collaborate
 import csv
 from collections import Counter, defaultdict
 from io import StringIO
-import locale
 from typing import DefaultDict
 
 from csv2md.table import Table
@@ -22,7 +21,10 @@ from utils import (
     TARGET_TWITTER,
 )
 
-locale.setlocale(locale.LC_ALL, "en_AU")
+
+def format_money(amount: int) -> str:
+    return "${:,}".format(amount)
+
 
 DONATIONS_FILE = "src/2022/Donations Made.csv"
 TWITTER_MAPPING_MARKDOWN_FILE_PAGE_1 = "tables/twitter_donors_page_1.md"
@@ -80,15 +82,12 @@ def build_twitter_donor_table() -> None:
             writer_page_2.writeheader()
             for donor, value in counter.most_common():
                 writer = writer_page_1 if value > 50000 else writer_page_2
-                formatted_donations = locale.currency(value, grouping=True).split(".")[
-                    0
-                ]
                 writer.writerow(
                     {
                         TARGET_TWITTER: twitter_handles[donor],
                         # replace "|" characters to avoid messing with markdown tables
                         TARGET_DONOR: donor.replace("|", "/"),
-                        TARGET_TOTAL_DONATIONS: formatted_donations,
+                        TARGET_TOTAL_DONATIONS: format_money(value),
                     }
                 )
 
@@ -139,13 +138,12 @@ def build_party_groups_table():
         )
         writer.writeheader()
         for donation_made_to, value in counter.most_common():
-            formatted_donations = locale.currency(value, grouping=True).split(".")[0]
             writer.writerow(
                 {
                     TARGET_PARTY: existing_parties[donation_made_to],
                     # replace "|" characters to avoid messing with markdown tables
                     TARGET_DONATION_MADE_TO: donation_made_to.replace("|", "/"),
-                    TARGET_TOTAL_DONATIONS: formatted_donations,
+                    TARGET_TOTAL_DONATIONS: format_money(value),
                 }
             )
 

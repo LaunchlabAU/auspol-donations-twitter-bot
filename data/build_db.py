@@ -7,7 +7,6 @@ Create 2 json files from the markdown tables, which act as the database.
 
 import csv
 import json
-import locale
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -23,8 +22,10 @@ from utils import (
     WhitespaceStrippingDictReader,
 )
 
-# restricted locales in build environment.
-locale.setlocale(locale.LC_ALL, locale="en_US.UTF-8")
+
+def format_money(amount: int) -> str:
+    return "${:,}".format(amount)
+
 
 ROOT_DIR = Path(__file__).parent.parent
 LAMBDA_DATA_PATH = ROOT_DIR / "donationsbot" / "functions" / "bot" / "bot" / "data"
@@ -68,7 +69,7 @@ def get_donations_made_to_party_mapping():
 
 
 def format_donation(donation):
-    return [donation[0], locale.currency(donation[1], grouping=True).split(".")[0]]
+    return [donation[0], format_money(donation[1])]
 
 
 class DonationStats:

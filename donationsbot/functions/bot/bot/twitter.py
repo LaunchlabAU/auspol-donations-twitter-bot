@@ -1,10 +1,8 @@
 import json
-import locale
 from pathlib import Path
 from typing import List
 import jinja2
 
-locale.setlocale(locale.LC_ALL, "en_AU")
 
 CURRENT_PATH = Path(__file__).parent
 
@@ -35,6 +33,10 @@ with open(CURRENT_PATH / "data" / "twitter.json") as f:
 
 with open(CURRENT_PATH / "data" / "donors.json") as f:
     DONORS = json.load(f)
+
+
+def format_money(amount: int) -> str:
+    return "${:,}".format(amount)
 
 
 def get_handles_from_tweet(tweet: str) -> List[str]:
