@@ -68,7 +68,7 @@ def get_handles_from_tweet(tweet: str) -> List[str]:
     return [word.lower() for word in tweet.split() if word.startswith(("@", "#"))]
 
 
-def reply_to_tweet(id: int, text: str):
+def reply_to_tweet(id: int, text: str) -> None:
     handles = get_handles_from_tweet(tweet=text)
     donors_sets_from_handles = [
         donor for handle in handles if (donor := TWITTER_HANDLES.get(handle))
@@ -81,7 +81,7 @@ def reply_to_tweet(id: int, text: str):
 
     # combine donor names and donations for the template context
     donor_data = [{"name": donor, "donations": DONORS[donor]} for donor in donor_set]
-    logger.info(TEMPLATE.render(donors=donor_data))
-    logger.info(donor_data)
+    tweet_text = TEMPLATE.render(donors=donor_data)
 
-    # TODO: send tweet
+    # send tweet
+    tweepy_client.create_tweet(in_reply_to_tweet_id=id, text=tweet_text)
