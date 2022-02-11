@@ -96,7 +96,7 @@ def queue_tweets(tweets: List[tweepy.Tweet]) -> None:
 
 @logger.inject_lambda_context()
 @tracer.capture_lambda_handler
-def hander(event: Dict[str, Any], context: LambdaContext) -> None:
+def handler(event: Dict[str, Any], context: LambdaContext) -> None:
     starting_point_kwargs = get_starting_point_kwargs()
     response = tweepy_client.get_users_mentions(
         id=TWITTER_ID, max_results=MAX_RESULTS_TWITTER, **starting_point_kwargs
