@@ -7,34 +7,34 @@ Create 2 json files from the markdown tables, which act as the database.
 
 import csv
 import json
-from collections import defaultdict
-from dataclasses import dataclass
-from pathlib import Path
-from collections import Counter
 import locale
+from collections import Counter, defaultdict
+from pathlib import Path
 
 from utils import (
     SOURCE_DONATION_MADE_TO,
     SOURCE_DONOR_NAME,
     SOURCE_FINANCIAL_YEAR,
-    TARGET_DONATION_MADE_TO,
     SOURCE_VALUE,
+    TARGET_DONATION_MADE_TO,
     TARGET_DONOR,
     TARGET_PARTY,
     TARGET_TWITTER,
     WhitespaceStrippingDictReader,
 )
 
-locale.setlocale(locale.LC_ALL, locale="en_AU")
+locale.setlocale(locale.LC_ALL, locale="en_AU.UTF-8")
 
 ROOT_DIR = Path(__file__).parent.parent
 LAMBDA_DATA_PATH = ROOT_DIR / "donationsbot" / "functions" / "bot" / "bot" / "data"
 
-TABLE_TWITTER_DONORS_PAGE_1 = "tables/twitter_donors_page_1.md"
-TABLE_TWITTER_DONORS_PAGE_2 = "tables/twitter_donors_page_2.md"
-TABLE_PARTIES = "tables/parties.md"
+TABLES_PATH = Path(__file__).parent / "tables"
 
-DONATIONS_CSV_FILE = "src/2022/Donations Made.csv"
+TABLE_TWITTER_DONORS_PAGE_1 = TABLES_PATH / "twitter_donors_page_1.md"
+TABLE_TWITTER_DONORS_PAGE_2 = TABLES_PATH / "twitter_donors_page_2.md"
+TABLE_PARTIES = TABLES_PATH / "parties.md"
+
+DONATIONS_CSV_FILE = Path(__file__).parent / "src/2022/Donations Made.csv"
 
 
 DB_TWITTER_HANDLES = LAMBDA_DATA_PATH / "twitter.json"
