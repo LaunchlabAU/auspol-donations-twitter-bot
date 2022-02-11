@@ -84,6 +84,23 @@ class DeploymentStack(Stack):
         # We also want a queue for the tweet reader to popluate with new tweets, to be handled
         # by a separate lambda functon
 
+        access_param_store_policy = iam.Policy(
+            self,
+            "access-param-store",
+            statements=[
+                iam.PolicyStatement(
+                    actions=[
+                        "ssm:GetParametersByPath",
+                        "ssm:GetParameters",
+                        "ssm:GetParameter",
+                        "ssm:DescribeParameters",
+                    ],
+                    effect=iam.Effect.ALLOW,
+                    resources=["*"],
+                )
+            ],
+        )
+
         tweet_queue = sqs.Queue(
             self,
             "TweetQueue",
@@ -111,6 +128,7 @@ class DeploymentStack(Stack):
             },
         )
         tweet_watcher_lambda.role.add_managed_policy(policy=lambda_insights_policy)
+        tweet_watcher_lambda.role.attach_inline_policy(policy=access_param_store_policy)
 
         tweet_watcher_bucket.grant_read_write(identity=tweet_watcher_lambda)
         tweet_queue.grant_send_messages(grantee=tweet_watcher_lambda)
@@ -147,6 +165,7 @@ class DeploymentStack(Stack):
         )
 
         bot_lambda.role.add_managed_policy(lambda_insights_policy)
+        bot_lambda.role.attach_inline_policy(policy=access_param_store_policy)
 
         bot_lambda.add_event_source(
             source=lambda_event_sources.SqsEventSource(queue=tweet_queue)
