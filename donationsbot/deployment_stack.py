@@ -23,7 +23,7 @@ from aws_cdk import (
 
 BOT_LOG_RETENTION = logs.RetentionDays.TWO_MONTHS
 ADMIN_NOTIFICATION_EMAILS = ["david+donationsbot@launchlab.com.au"]
-# See https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Lambda-Insights-extension-versions.html
+# See https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Lambda-Insights-extension-versions.html  # noqa: E501
 LAMBDA_INSIGHTS_LAYER_ARN = (
     "arn:aws:lambda:ap-southeast-2:580247275435:layer:LambdaInsightsExtension-Arm64:1"
 )
@@ -125,6 +125,7 @@ class DeploymentStack(Stack):
                 "POWERTOOLS_SERVICE_NAME": "tweet_reader",
                 "BUCKET_NAME": tweet_watcher_bucket.bucket_name,
                 "SQS_QUEUE_URL": tweet_queue.queue_url,
+                "POLL_INTERVAL_SECONDS": str(POLL_TWITTER_INTERVAL_SECONDS),
             },
         )
         tweet_watcher_lambda.role.add_managed_policy(policy=lambda_insights_policy)

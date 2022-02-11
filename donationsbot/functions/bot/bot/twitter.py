@@ -3,6 +3,31 @@ from pathlib import Path
 from typing import List
 import jinja2
 
+import boto3
+from aws_lambda_powertools import Logger
+import tweepy
+
+ssm_client = boto3.client("ssm")
+
+logger = Logger(child=True)
+
+
+twitter_param_strings = ssm_client.get_parameters(
+    Names=[
+        "TWITTER_ACCESS_TOKEN",
+        "TWITTER_ACCESS_TOKEN_SECRET",
+        "TWITTER_CONSUMER_KEY",
+        "TWITTER_CONSUMER_SECRET",
+    ],
+    WithDecryption=True,
+)
+
+twitter_credentials = dict(
+    (param["Name"].removeprefix("TWITTER_").lower(), param["Value"])
+    for param in twitter_param_strings.get("Parameters", [])
+)
+
+tweepy_client = tweepy.Client(**twitter_credentials)
 
 CURRENT_PATH = Path(__file__).parent
 
@@ -43,8 +68,8 @@ def get_handles_from_tweet(tweet: str) -> List[str]:
     return [word.lower() for word in tweet.split() if word.startswith(("@", "#"))]
 
 
-def reply_to_tweet(tweet: str):
-    handles = get_handles_from_tweet(tweet=tweet)
+def reply_to_tweet(id: int, text: str):
+    handles = get_handles_from_tweet(tweet=text)
     donors_sets_from_handles = [
         donor for handle in handles if (donor := TWITTER_HANDLES.get(handle))
     ]
@@ -56,5 +81,7 @@ def reply_to_tweet(tweet: str):
 
     # combine donor names and donations for the template context
     donor_data = [{"name": donor, "donations": DONORS[donor]} for donor in donor_set]
-    print(donor_data)
-    print(TEMPLATE.render(donors=donor_data))
+    logger.info(TEMPLATE.render(donors=donor_data))
+    logger.info(donor_data)
+
+    # TODO: send tweet

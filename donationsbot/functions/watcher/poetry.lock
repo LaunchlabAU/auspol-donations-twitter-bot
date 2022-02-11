@@ -1,4 +1,15 @@
 [[package]]
+name = "arrow"
+version = "1.2.2"
+description = "Better dates & times for Python"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+python-dateutil = ">=2.7.0"
+
+[[package]]
 name = "aws-lambda-powertools"
 version = "1.24.2"
 description = "A suite of utilities for AWS Lambda functions to ease adopting best practices such as tracing, structured logging, custom metrics, batching, idempotency, feature flags, and more."
@@ -235,9 +246,13 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "8e41fdaf235d14d994ba6f41bc2f7ae027e97c4fb82f9b6b9b1b02381159cc2e"
+content-hash = "b0d56d030d2e0f3e69d5ed08ee2c2a458457472184b1b2414cfe717be2679762"
 
 [metadata.files]
+arrow = [
+    {file = "arrow-1.2.2-py3-none-any.whl", hash = "sha256:d622c46ca681b5b3e3574fcb60a04e5cc81b9625112d5fb2b44220c36c892177"},
+    {file = "arrow-1.2.2.tar.gz", hash = "sha256:05caf1fd3d9a11a1135b2b6f09887421153b94558e5ef4d090b567b47173ac2b"},
+]
 aws-lambda-powertools = [
     {file = "aws_lambda_powertools-1.24.2-py3-none-any.whl", hash = "sha256:fa18aec87f56d5881474354a7dfc7b72832870e79a5d4cd4560a0bb73715c6a5"},
     {file = "aws_lambda_powertools-1.24.2.tar.gz", hash = "sha256:bc63b6db560bceca436a3f557d6299f4dec6deaa3210517ea6d4a345f3184dd3"},

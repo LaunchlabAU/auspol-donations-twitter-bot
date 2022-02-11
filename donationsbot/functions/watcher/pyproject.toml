@@ -8,6 +8,7 @@ authors = ["Your Name <you@example.com>"]
 python = "^3.9"
 tweepy = "^4.5.0"
 aws-lambda-powertools = "^1.24.2"
+arrow = "^1.2.2"
 
 [tool.poetry.dev-dependencies]
 

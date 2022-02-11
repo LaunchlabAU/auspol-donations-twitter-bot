@@ -1,3 +1,6 @@
+arrow==1.2.2; python_version >= "3.6" \
+    --hash=sha256:d622c46ca681b5b3e3574fcb60a04e5cc81b9625112d5fb2b44220c36c892177 \
+    --hash=sha256:05caf1fd3d9a11a1135b2b6f09887421153b94558e5ef4d090b567b47173ac2b
 aws-lambda-powertools==1.24.2; python_full_version >= "3.6.2" and python_full_version < "4.0.0" \
     --hash=sha256:fa18aec87f56d5881474354a7dfc7b72832870e79a5d4cd4560a0bb73715c6a5 \
     --hash=sha256:bc63b6db560bceca436a3f557d6299f4dec6deaa3210517ea6d4a345f3184dd3
@@ -30,7 +33,7 @@ jmespath==0.10.0; python_full_version >= "3.6.2" and python_full_version < "4.0.
 oauthlib==3.2.0; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.4.0" and python_version >= "3.6" \
     --hash=sha256:6db33440354787f9b7f3a6dbd4febf5d0f93758354060e802f6c06cb493022fe \
     --hash=sha256:23a8208d75b902797ea29fd31fa80a15ed9dc2c6c16fe73f5d346f83f6fa27a2
-python-dateutil==2.8.2; python_full_version >= "3.6.2" and python_full_version < "4.0.0" and python_version >= "3.6" \
+python-dateutil==2.8.2; python_full_version >= "3.6.2" and python_version >= "3.6" and python_full_version < "4.0.0" \
     --hash=sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86 \
     --hash=sha256:961d03dc3453ebbc59dbdea9e4e11c5651520a876d0f4db161e8674aae935da9
 requests-oauthlib==1.3.1; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.4.0" and python_version >= "3.6" \
@@ -42,7 +45,7 @@ requests==2.27.1; python_version >= "3.6" and python_full_version < "3.0.0" or p
 s3transfer==0.5.1; python_full_version >= "3.6.2" and python_full_version < "4.0.0" and python_version >= "3.6" \
     --hash=sha256:25c140f5c66aa79e1ac60be50dcd45ddc59e83895f062a3aab263b870102911f \
     --hash=sha256:69d264d3e760e569b78aaa0f22c97e955891cd22e32b10c51f784eeda4d9d10a
-six==1.16.0; python_full_version >= "3.6.2" and python_full_version < "4.0.0" and python_version >= "3.6" \
+six==1.16.0; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.3.0" and python_version >= "3.6" \
     --hash=sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254 \
     --hash=sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926
 tweepy==4.5.0; python_version >= "3.6" \
