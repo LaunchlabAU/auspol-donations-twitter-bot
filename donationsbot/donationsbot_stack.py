@@ -34,6 +34,7 @@ class DonationsbotStack(Stack):
                 commands=[
                     "pip install -r requirements.txt",
                     "npm install -g aws-cdk",
+                    "python data/build_db.py",
                     "cdk synth",
                 ],
             ),
