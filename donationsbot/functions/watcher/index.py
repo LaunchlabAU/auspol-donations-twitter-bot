@@ -1,6 +1,6 @@
 import json
 import os
-from typing import Any, Dict, Generator, List, Union
+from typing import Any, Dict, Generator, List, Union, Optional
 
 import arrow
 import boto3
@@ -82,7 +82,9 @@ def store_latest_id(latest_id: int) -> None:
     )
 
 
-def queue_tweets(tweets: List[tweepy.Tweet]) -> None:
+def queue_tweets(tweets: Optional[List[tweepy.Tweet]] = None) -> None:
+    if not tweets:
+        return
     messages = [
         {
             "Id": str(tweet.id),
