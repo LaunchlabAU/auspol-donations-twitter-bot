@@ -23,7 +23,8 @@ from utils import (
     WhitespaceStrippingDictReader,
 )
 
-locale.setlocale(locale.LC_ALL, locale="en_AU.UTF-8")
+# restricted locales in build environment.
+locale.setlocale(locale.LC_ALL, locale="en_US.UTF-8")
 
 ROOT_DIR = Path(__file__).parent.parent
 LAMBDA_DATA_PATH = ROOT_DIR / "donationsbot" / "functions" / "bot" / "bot" / "data"
@@ -34,7 +35,7 @@ TABLE_TWITTER_DONORS_PAGE_1 = TABLES_PATH / "twitter_donors_page_1.md"
 TABLE_TWITTER_DONORS_PAGE_2 = TABLES_PATH / "twitter_donors_page_2.md"
 TABLE_PARTIES = TABLES_PATH / "parties.md"
 
-DONATIONS_CSV_FILE = Path(__file__).parent / "src/2022/Donations Made.csv"
+DONATIONS_CSV_FILE = Path(__file__).parent / "src" / "2022" / "Donations Made.csv"
 
 
 DB_TWITTER_HANDLES = LAMBDA_DATA_PATH / "twitter.json"
