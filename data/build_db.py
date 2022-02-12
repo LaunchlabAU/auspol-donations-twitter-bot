@@ -94,9 +94,13 @@ class DonationStats:
 
     def to_json(self):
         fy_20_21_donor_max_len = self.get_max_len(self.fy_2020_21.keys())
-        fy_20_21_max_donation_length = self.get_max_len(self.fy_2020_21.values())
+        fy_20_21_max_donation_length = self.get_max_len(
+            [format_money(value) for value in self.fy_2020_21.values()]
+        )
         fy_earlier_donor_max_len = self.get_max_len(self.fy_earlier.keys())
-        fy_earlier_max_donation_length = self.get_max_len(self.fy_earlier.values())
+        fy_earlier_max_donation_length = self.get_max_len(
+            [format_money(value) for value in self.fy_earlier.values()]
+        )
 
         return {
             "fy_20_21": [
