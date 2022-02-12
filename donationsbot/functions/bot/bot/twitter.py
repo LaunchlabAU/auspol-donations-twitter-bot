@@ -33,6 +33,8 @@ CURRENT_PATH = Path(__file__).parent
 
 TWITTER_MAX_CHARS = 280
 
+REMOVE_FROM_DONOR_NAME = ["pty", "ltd"]
+
 TEMPLATE = jinja2.Template(
     source="""{{recipients}}{% for donor in donors %}
 
@@ -88,6 +90,13 @@ def get_handles_from_tweet(tweet: str) -> List[str]:
     return [handle for handle in handles if handle not in EXCLUDE_HANDLES]
 
 
+def clean_donor_name(name: str) -> str:
+    new_name = " ".join(
+        part for part in name.split() if part.lower() not in REMOVE_FROM_DONOR_NAME
+    )
+    return new_name.strip()
+
+
 def reply_to_tweet(id: int, text: str) -> None:
     handles = get_handles_from_tweet(tweet=text)
     donors_sets_from_handles = [
@@ -101,7 +110,10 @@ def reply_to_tweet(id: int, text: str) -> None:
 
     # combine donor names and donations for the template context
     recipients = " ".join(handles)
-    donor_data = [{"name": donor, "donations": DONORS[donor]} for donor in donor_set]
+    donor_data = [
+        {"name": clean_donor_name(name=donor), "donations": DONORS[donor]}
+        for donor in donor_set
+    ]
     tweet_text = TEMPLATE.render(donors=donor_data, recipients=recipients)
 
     if tweet_is_too_long(tweet_text):
