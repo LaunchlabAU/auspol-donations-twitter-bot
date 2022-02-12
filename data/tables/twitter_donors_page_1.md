@@ -20,9 +20,9 @@
 | #Leighton #LeightonHoldings                     | Leighton Holdings                                                                                                     | $3,231,303      |
 | @Tabcorp #tabcorp #TabcorpHoldings              | Tabcorp Holdings Limited                                                                                              | $3,164,094      |
 | @PwC_AU #pwc #PricewaterhouseCoopers            | PricewaterhouseCoopers                                                                                                | $3,114,187      |
-|                                                 | Hong Kong Kingson Investment Co., Ltd.                                                                                | $3,113,500      |
-|                                                 | Macquarie Bank                                                                                                        | $3,033,497      |
-|                                                 | AUSTRALIAN HOTELS & HOSPITALITY ASSOCIATION INC.                                                                      | $3,025,283      |
+|  #chauchakwing #kingsongroup                   | Hong Kong Kingson Investment Co., Ltd.                                                                                | $3,113,500      |
+|@macquariebank #macquariebank @macquarie #macquarie  | Macquarie Bank                                                                                                        | $3,033,497      |
+| @ahanational                       | AUSTRALIAN HOTELS & HOSPITALITY ASSOCIATION INC.                                                                      | $3,025,283      |
 |                                                 | Santos Limited                                                                                                        | $2,806,357      |
 |                                                 | Woodside Energy Limited                                                                                               | $2,803,942      |
 |                                                 | Jefferson Investments Pty Limited                                                                                     | $2,780,585      |
