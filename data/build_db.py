@@ -68,8 +68,11 @@ def get_donations_made_to_party_mapping():
     return data
 
 
-def format_donation(donation):
-    return [donation[0], format_money(donation[1])]
+def format_donation(donation, max_donor_len, max_donation_len):
+    return [
+        donation[0].ljust(max_donor_len),
+        format_money(donation[1]).rjust(max_donation_len),
+    ]
 
 
 class DonationStats:
@@ -81,9 +84,32 @@ class DonationStats:
         self.fy_earlier = Counter()
 
     def to_json(self):
+        fy_20_21_donor_max_len = max([len(donor) for donor in self.fy_2020_21.keys()])
+        fy_20_21_max_donation_length = len(
+            format_donation(max(self.fy_2020_21.values()))
+        )
+        fy_earlier_donor_max_len = max([len(donor) for donor in self.fy_earlier.keys()])
+        fy_earlier_max_donation_length = len(
+            format_donation(max(self.fy_earlier.values()))
+        )
+
         return {
-            "fy_20_21": [format_donation(d) for d in self.fy_2020_21.most_common()],
-            "fy_earlier": [format_donation(d) for d in self.fy_earlier.most_common()],
+            "fy_20_21": [
+                format_donation(
+                    d,
+                    max_donor_len=fy_20_21_donor_max_len,
+                    max_donation_len=fy_20_21_max_donation_length,
+                )
+                for d in self.fy_2020_21.most_common()
+            ],
+            "fy_earlier": [
+                format_donation(
+                    d,
+                    max_donor_length=fy_earlier_donor_max_len,
+                    max_donation_len=fy_earlier_max_donation_length,
+                )
+                for d in self.fy_earlier.most_common()
+            ],
         }
 
 

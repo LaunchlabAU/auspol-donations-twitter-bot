@@ -36,7 +36,7 @@ TEMPLATE = jinja2.Template(
 
 {% for donor in donors %}
 
-{{ donor.name }}
+{{ donor.name }} political donations:
 
 FY 2020-21
 {% if donor.donations.fy_20_21 %}{% for donation in donor.donations.fy_20_21 %}
