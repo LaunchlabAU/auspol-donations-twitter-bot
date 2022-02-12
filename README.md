@@ -4,7 +4,7 @@ A Twitter bot which replies with political donations made by donor mentioned in 
 
 Example tweet the bot will respond to:
 
-`Hey @AusPolDonationsBot tell me what political donations @SomeCompany has made please.`
+`Hey @AusPolDonations tell me what political donations @SomeCompany has made please.`
 
 The bot will reply with the donations of the first twitter handle mentioned in the tweet which is in the database (see below).
 
