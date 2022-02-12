@@ -28,30 +28,30 @@
 |                                                 | Jefferson Investments Pty Limited                                                                                     | $2,780,585      |
 |  @Green_Dot #green_Dot #deloitteau #deloitte_au    | Deloitte Touche Tohmatsu                                                                                              | $2,766,722      |
 | @PalmerCoolum #palmercoolum            | Palmer Coolum Resort Pty Ltd                                                                                          | $2,580,388      |
-|                                                 | Croissy Pty Limited                                                                                                   | $2,576,000      |
-|                                                 | Wood, Graeme                                                                                                          | $2,492,795      |
-|                                                 | Furama Pty Ltd ATF Pearson Street Unit Trust                                                                          | $2,488,776      |
+|  #croissyau  #croissy_au                                             | Croissy Pty Limited                                                                                                   | $2,576,000      |
+|  #graemewoodau   #graemewood_au                                            | Wood, Graeme                                                                                                          | $2,492,795      |
+|  #furamaau #furama_au                                               | Furama Pty Ltd ATF Pearson Street Unit Trust                                                                          | $2,488,776      |
 | @InsidePMI #insidePMI #phillipmorris_au #phillipmorrisau   | Philip Morris Limited                                                                                                 | $2,373,112      |
 | @Wesfarmers #westfarmers           | Wesfarmers Limited                                                                                                    | $2,325,050      |
 | @CocaColaAU #cocacolaau                      | Coca-Cola Amatil Limited                                                                                              | $2,222,240      |
-|                                                 | KPMG Australia                                                                                                        | $2,156,871      |
-|                                                 | MACQUARIE TELECOM GROUP LTD                                                                                           | $2,108,683      |
-|                                                 | Crown Resorts Limited                                                                                                 | $2,072,873      |
-|                                                 | British American Tobacco Australia Limited                                                                            | $2,065,380      |
-|                                                 | Day, Bob                                                                                                              | $1,960,000      |
-|                                                 | The Gandel Group Pty Ltd                                                                                              | $1,923,644      |
-|                                                 | Meriton Apartments Pty Limited                                                                                        | $1,865,517      |
-|                                                 | Lion Pty Ltd                                                                                                          | $1,849,053      |
-|                                                 | National Australia Bank Limited                                                                                       | $1,846,689      |
-|                                                 | Australian Hotels Association (SA Branch)                                                                             | $1,834,404      |
-|                                                 | CFMEU Mining & Energy Division - National Office                                                                      | $1,809,000      |
-|                                                 | JJ Richards & Sons Pty Ltd                                                                                            | $1,801,014      |
-|                                                 | Australian Hotels Association - Federal Office                                                                        | $1,800,527      |
-|                                                 | Visa AP (Australia) Pty Ltd                                                                                           | $1,792,749      |
-|                                                 | Malcolm Turnbull                                                                                                      | $1,763,750      |
-|                                                 | Allianz Australia Limited                                                                                             | $1,753,811      |
-|                                                 | Commonwealth Bank of Australia                                                                                        | $1,742,277      |
-|                                                 | Ernst & Young                                                                                                         | $1,713,757      |
+|  @kpmgaustralia #kpmgaustralia                   | KPMG Australia                                                                                                        | $2,156,871      |
+| @MacquarieTelco #macquarietelco     | MACQUARIE TELECOM GROUP LTD                                                                                           | $2,108,683      |
+|    @CrownResorts #crownresorts       | Crown Resorts Limited                                                                                                 | $2,072,873      |
+|  @BATA_Media #BATA #Britishamericantabaccoaustralia #BAT_au       | British American Tobacco Australia Limited                                                                            | $2,065,380      |
+| @senatorbobday #senatorbobday                                               | Day, Bob                                                                                                              | $1,960,000      |
+| #gandelgroup                           | The Gandel Group Pty Ltd                                                                                              | $1,923,644      |
+|  #meriton #meritongroup #meritonapartments @meritongroup @meritonsuites     | Meriton Apartments Pty Limited                                                                                        | $1,865,517      |
+|  #lionbeverages                                               | Lion Pty Ltd                                                                                                          | $1,849,053      |
+|  @NAB #NAB                                              | National Australia Bank Limited                                                                                       | $1,846,689      |
+|  @AHASA5000  #AHASA5000 #AHASA                                            | Australian Hotels Association (SA Branch)                                                                             | $1,834,404      |
+|    #CFMEU @CFMEU                         | CFMEU Mining & Energy Division - National Office                                                                      | $1,809,000      |
+| #JJRichardsAU #JJRichards_AU                                  | JJ Richards & Sons Pty Ltd                                                                                            | $1,801,014      |
+| @ahanational #ahanational             | Australian Hotels Association - Federal Office                                                                        | $1,800,527      |
+|    @VisaAU #Visaau #visa_au                      | Visa AP (Australia) Pty Ltd                                                                                           | $1,792,749      |
+|  @TurnbullMalcolm #malcolmturnbull #turnbullmalcolm                        | Malcolm Turnbull                                                                                                      | $1,763,750      |
+|  @allianz_au #allianz_au                      | Allianz Australia Limited                                                                                             | $1,753,811      |
+|     @commbank #commbank                         | Commonwealth Bank of Australia                                                                                        | $1,742,277      |
+|  @EY_Australia #EY_Australia #EYAUS #EY_AU                    | Ernst & Young                                                                                                         | $1,713,757      |
 |                                                 | Coles Myer Ltd                                                                                                        | $1,667,500      |
 |                                                 | Turpie, Duncan                                                                                                        | $1,660,533      |
 |                                                 | Maurice Blackburn Pty Ltd                                                                                             | $1,648,760      |
