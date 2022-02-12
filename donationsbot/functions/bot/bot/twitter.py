@@ -35,7 +35,6 @@ TWITTER_MAX_CHARS = 280
 
 TEMPLATE = jinja2.Template(
     source="""{{recipients}}
-
 {% for donor in donors %}
 
 {{ donor.name }}
@@ -52,8 +51,7 @@ Earlier
 {% else %}
 None
 {% endif %}
-{% endfor %}
-"""
+{% endfor %}"""
 )
 
 # TODO: show total amount for earlier years.
