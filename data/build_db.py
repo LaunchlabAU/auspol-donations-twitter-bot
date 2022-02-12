@@ -103,7 +103,7 @@ class DonationStats:
             "fy_earlier": [
                 format_donation(
                     d,
-                    max_donor_length=fy_earlier_donor_max_len,
+                    max_donor_len=fy_earlier_donor_max_len,
                     max_donation_len=fy_earlier_max_donation_length,
                 )
                 for d in self.fy_earlier.most_common()
