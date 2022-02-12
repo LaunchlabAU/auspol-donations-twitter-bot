@@ -14,7 +14,8 @@ The bot requires two datasets on top of the data available from the AEC, one to 
 
 ### Mapping twitter handles to donors:
 
-[Twitter donors table](data/tables/twitter_donors.md)
+[Twitter donors table: page 1](data/tables/twitter_donors_page_1.md)
+[Twitter donors table: page 2](data/tables/twitter_donors_page_2.md)
 
 ### Mapping donation recipeints to political parties.
 
