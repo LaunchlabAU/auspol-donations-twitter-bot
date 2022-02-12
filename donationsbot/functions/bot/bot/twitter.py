@@ -1,5 +1,6 @@
 import json
 from pathlib import Path
+from collections import Counter
 from typing import List
 import jinja2
 
@@ -85,6 +86,11 @@ def format_money(amount: int) -> str:
     return "${:,}".format(amount)
 
 
+def unformat_money(amount: str) -> int:
+    # TODO: we should delay formatting money rather than format and unformat!
+    return int(amount.replace("$", "").replace(",", ""))
+
+
 def get_handles_from_tweet(tweet: str) -> List[str]:
     handles = [word.lower() for word in tweet.split() if word.startswith(("@", "#"))]
     return [handle for handle in handles if handle not in EXCLUDE_HANDLES]
@@ -95,6 +101,23 @@ def clean_donor_name(name: str) -> str:
         part for part in name.split() if part.lower() not in REMOVE_FROM_DONOR_NAME
     )
     return new_name.strip()
+
+
+def combine_donor_data(donor_data):
+    name = " / ".join([d["name"] for d in donor_data])
+    fy_20_21 = Counter()
+    fy_earlier = Counter()
+    for donor in donor_data:
+        for donation in donor["donations"]["fy_20_21"]:
+            fy_20_21.update({donation[0]: unformat_money(donation[1])})
+        for donation in donor["donations"]["fy_earlier"]:
+            fy_earlier.update({donation[0]: unformat_money(donation[1])})
+    donations = {"fy_20_21": [], "fy_earlier": []}
+    for donor, amount in fy_20_21.most_common():
+        donations["fy_20_21"].append([donor, format_money(amount=amount)])
+    for donor, amount in fy_earlier.most_common():
+        donations["fy_earlier"].append([donor, format_money(amount=amount)])
+    return [{"name": name, "donations": donations}]
 
 
 def reply_to_tweet(id: int, text: str) -> None:
@@ -114,7 +137,13 @@ def reply_to_tweet(id: int, text: str) -> None:
         {"name": clean_donor_name(name=donor), "donations": DONORS[donor]}
         for donor in donor_set
     ]
-    tweet_text = TEMPLATE.render(donors=donor_data, recipients=recipients)
+
+    # Testing: try combining donor data to reduce tweet size for e.g. #nine with multiple
+    # entities
+    # TODO: clean this up if it looks like combining entities will allow us to fit most
+    # cases within a tweet without having to drop contributions before FY 20-21
+    combined_donor_data = combine_donor_data(donor_data)
+    tweet_text = TEMPLATE.render(donors=combined_donor_data, recipients=recipients)
 
     if tweet_is_too_long(tweet_text):
         # TODO:
