@@ -22,18 +22,18 @@
 | @PwC_AU #pwc #PricewaterhouseCoopers            | PricewaterhouseCoopers                                                                                                | $3,114,187      |
 |  #chauchakwing #kingsongroup                   | Hong Kong Kingson Investment Co., Ltd.                                                                                | $3,113,500      |
 |@macquariebank #macquariebank @macquarie #macquarie  | Macquarie Bank                                                                                                        | $3,033,497      |
-| @ahanational                       | AUSTRALIAN HOTELS & HOSPITALITY ASSOCIATION INC.                                                                      | $3,025,283      |
-|                                                 | Santos Limited                                                                                                        | $2,806,357      |
-|                                                 | Woodside Energy Limited                                                                                               | $2,803,942      |
+| @ahanational #ahanational            | AUSTRALIAN HOTELS & HOSPITALITY ASSOCIATION INC.                                                                      | $3,025,283      |
+| @SantosLtd #santosltd #santos             | Santos Limited                                                                                                        | $2,806,357      |
+|  @WoodsideEnergy #woodsideenergy #woodside                  | Woodside Energy Limited                                                                                               | $2,803,942      |
 |                                                 | Jefferson Investments Pty Limited                                                                                     | $2,780,585      |
-|                                                 | Deloitte Touche Tohmatsu                                                                                              | $2,766,722      |
-|                                                 | Palmer Coolum Resort Pty Ltd                                                                                          | $2,580,388      |
+|  @Green_Dot #green_Dot #deloitteau #deloitte_au    | Deloitte Touche Tohmatsu                                                                                              | $2,766,722      |
+| @PalmerCoolum #palmercoolum            | Palmer Coolum Resort Pty Ltd                                                                                          | $2,580,388      |
 |                                                 | Croissy Pty Limited                                                                                                   | $2,576,000      |
 |                                                 | Wood, Graeme                                                                                                          | $2,492,795      |
 |                                                 | Furama Pty Ltd ATF Pearson Street Unit Trust                                                                          | $2,488,776      |
-|                                                 | Philip Morris Limited                                                                                                 | $2,373,112      |
-|                                                 | Wesfarmers Limited                                                                                                    | $2,325,050      |
-|                                                 | Coca-Cola Amatil Limited                                                                                              | $2,222,240      |
+| @InsidePMI #insidePMI #phillipmorris_au #phillipmorrisau   | Philip Morris Limited                                                                                                 | $2,373,112      |
+| @Wesfarmers #westfarmers           | Wesfarmers Limited                                                                                                    | $2,325,050      |
+| @CocaColaAU #cocacolaau                      | Coca-Cola Amatil Limited                                                                                              | $2,222,240      |
 |                                                 | KPMG Australia                                                                                                        | $2,156,871      |
 |                                                 | MACQUARIE TELECOM GROUP LTD                                                                                           | $2,108,683      |
 |                                                 | Crown Resorts Limited                                                                                                 | $2,072,873      |
