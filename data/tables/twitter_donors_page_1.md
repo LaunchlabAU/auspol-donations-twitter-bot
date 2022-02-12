@@ -4,22 +4,22 @@
 | #queenslandnickel                               | Queensland Nickel Pty Ltd                                                                                             | $21,707,781     |
 | #prattholdings                                  | Pratt Holdings P/L                                                                                                    | $10,967,843     |
 | #cormackfoundation                              | Cormack Foundation Pty Ltd                                                                                            | $9,379,000      |
-| #villageroadshow @VillageCinemas @RoadshowFilms | Village Roadshow Limited                                                                                              | $5,657,744      |
+| @VillageCinemas @RoadshowFilms #villageroadshow | Village Roadshow Limited                                                                                              | $5,657,744      |
 | #manildra #manildragroup                        | Manildra Group                                                                                                        | $5,337,707      |
-| #westpac @Westpac                               | Westpac Banking Corporation                                                                                           | $4,389,538      |
-|                                                 | Macquarie Group Limited                                                                                               | $4,206,894      |
-|                                                 | The Pharmacy Guild of Australia                                                                                       | $4,188,343      |
-|                                                 | Sugolena Pty Limited                                                                                                  | $4,162,448      |
-|                                                 | ANZ Banking Group Limited                                                                                             | $4,119,100      |
-|                                                 | Construction, Forestry, Maritime, Mining and Energy Union                                                             | $4,068,110      |
-|                                                 | Registered Clubs Association of NSW (t/as ClubsNSW)                                                                   | $3,417,936      |
-|                                                 | Australian Hotels Association (N.S.W.)                                                                                | $3,276,865      |
-|                                                 | Electrical Trades Union of Australia - Victorian Branch                                                               | $3,275,416      |
-|                                                 | Inghams Enterprises Pty Limited                                                                                       | $3,252,000      |
-|                                                 | Westfield Corporation Limited                                                                                         | $3,239,380      |
-|                                                 | Leighton Holdings                                                                                                     | $3,231,303      |
-|                                                 | Tabcorp Holdings Limited                                                                                              | $3,164,094      |
-|                                                 | PricewaterhouseCoopers                                                                                                | $3,114,187      |
+| @Westpac #westpac                               | Westpac Banking Corporation                                                                                           | $4,389,538      |
+| @Macquarie #macquarie #MacquarieGroup           | Macquarie Group Limited                                                                                               | $4,206,894      |
+| @PharmGuildAus #PharmacyGuild #thePharmacyGuild | The Pharmacy Guild of Australia                                                                                       | $4,188,343      |
+| #sugolena                                       | Sugolena Pty Limited                                                                                                  | $4,162,448      |
+| @ANZ_AU #anz #anzbank                           | ANZ Banking Group Limited                                                                                             | $4,119,100      |
+| @CFMEU #cfmeu                                   | Construction, Forestry, Maritime, Mining and Energy Union                                                             | $4,068,110      |
+| @ClubsNSW #clubsnsw                             | Registered Clubs Association of NSW (t/as ClubsNSW)                                                                   | $3,417,936      |
+| @AHANSW #ahansw                                 | Australian Hotels Association (N.S.W.)                                                                                | $3,276,865      |
+| @ETU_national #etu #etuvic                      | Electrical Trades Union of Australia - Victorian Branch                                                               | $3,275,416      |
+| #Inghams #InghamsEnterprises                    | Inghams Enterprises Pty Limited                                                                                       | $3,252,000      |
+| @WestfieldAU #westfield #WestfieldCorporation   | Westfield Corporation Limited                                                                                         | $3,239,380      |
+| #Leighton #LeightonHoldings                     | Leighton Holdings                                                                                                     | $3,231,303      |
+| @Tabcorp #tabcorp #TabcorpHoldings              | Tabcorp Holdings Limited                                                                                              | $3,164,094      |
+| @PwC_AU #pwc #PricewaterhouseCoopers            | PricewaterhouseCoopers                                                                                                | $3,114,187      |
 |                                                 | Hong Kong Kingson Investment Co., Ltd.                                                                                | $3,113,500      |
 |                                                 | Macquarie Bank                                                                                                        | $3,033,497      |
 |                                                 | AUSTRALIAN HOTELS & HOSPITALITY ASSOCIATION INC.                                                                      | $3,025,283      |
