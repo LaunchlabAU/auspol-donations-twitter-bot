@@ -1,4 +1,4 @@
-# AusPol Donations Twitter Bot
+# @AusPolDonations : Australian Political Donations Twitter Bot
 
 A Twitter bot which replies with political donations made by donor mentioned in tweet.
 
