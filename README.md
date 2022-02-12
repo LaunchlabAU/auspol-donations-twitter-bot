@@ -10,7 +10,7 @@ The bot will reply with the donations of the first twitter handle mentioned in t
 
 ## Dataset
 
-The bot requires two datasets on top of the data available from the AEC, one to map twitter handles to donors, and the other to map donation recipients back to political parties. We appreciate any help in completing & checking these datasets, which can be done with a pull request (see below).
+The bot requires two datasets on top of the data available from the AEC, one to map twitter handles to donors, and the other to map donation recipients back to political parties. We appreciate any help in completing & checking these datasets, which can be done with a pull request.
 
 ### Mapping twitter handles to donors:
 
@@ -26,11 +26,7 @@ The bot requires two datasets on top of the data available from the AEC, one to 
 
 AEC data is available at https://transparency.aec.gov.au/
 
-A copy of the 2022 dataset is [here](data/src/orginal)
-
-Github provides a useful search feature for CSV files, but not if the file is too large. So, the original csv files have been split into multiple pages to keep them within the Github filesize limit:
-
-TODO - paginated source csv
+A copy of the 2022 dataset is [here](data/src/2022)
 
 ## Contributing.
 
