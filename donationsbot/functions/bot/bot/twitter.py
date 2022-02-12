@@ -89,4 +89,8 @@ def reply_to_tweet(id: int, text: str) -> None:
     tweet_text = TEMPLATE.render(donors=donor_data, recipients=recipients)
 
     # send tweet
-    tweepy_client.create_tweet(in_reply_to_tweet_id=id, text=tweet_text)
+    try:
+        tweepy_client.create_tweet(in_reply_to_tweet_id=id, text=tweet_text)
+    except tweepy.BadRequest as e:
+        logger.info(msg=str(e))
+        logger.info(tweet_text)
