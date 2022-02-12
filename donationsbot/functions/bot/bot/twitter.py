@@ -40,13 +40,13 @@ TEMPLATE = jinja2.Template(
 
 FY 2020-21
 {% if donor.donations.fy_20_21 %}{% for donation in donor.donations.fy_20_21 %}
-{{ donation.0 }} {{ donation.1}}{% endfor %}
+{{ donation.1 }} {{ donation.0}}{% endfor %}
 {% else %}
 None
 {% endif %}
 Earlier
 {% if donor.donations.fy_earlier %}{% for donation in donor.donations.fy_earlier %}
-{{ donation.0 }} {{ donation.1}}{% endfor %}
+{{ donation.1 }} {{ donation.0}}{% endfor %}
 {% else %}
 None
 {% endif %}
