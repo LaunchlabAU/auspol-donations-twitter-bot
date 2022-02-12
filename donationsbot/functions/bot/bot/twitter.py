@@ -40,12 +40,12 @@ TEMPLATE = jinja2.Template(
 
 FY 20-21: {% if donor.donations.fy_20_21 %}
 {% for donation in donor.donations.fy_20_21 %}
-{{ donation.1 }} {{ donation.0}}{% endfor %}
+{{ donation.0 }} {{ donation.1}}{% endfor %}
 {% else %}Nothing{% endif %}
 
 Before 2020: {% if donor.donations.fy_earlier %}
 {% for donation in donor.donations.fy_earlier %}
-{{ donation.1 }} {{ donation.0}}{% endfor %}
+{{ donation.0 }} {{ donation.1}}{% endfor %}
 {% else %}Nothing{% endif %}{% endfor %}"""
 )
 
@@ -53,20 +53,14 @@ Before 2020: {% if donor.donations.fy_earlier %}
 # how else to fit into a tweet.
 
 SHORT_TEMPLATE = jinja2.Template(
-    source="""{{recipients}}
-
-{% for donor in donors %}
+    source="""{{recipients}}{% for donor in donors %}
 
 {{ donor.name }}
 
-FY 2020-21
-{% if donor.donations.fy_20_21 %}{% for donation in donor.donations.fy_20_21 %}
-{{ donation.1 }} {{ donation.0}}{% endfor %}
-{% else %}
-None
-{% endif %}
-{% endfor %}
-"""
+FY 20-21: {% if donor.donations.fy_20_21 %}
+{% for donation in donor.donations.fy_20_21 %}
+{{ donation.0 }} {{ donation.1}}{% endfor %}
+{% else %}Nothing{% endif %}{% endfor %}"""
 )
 
 
