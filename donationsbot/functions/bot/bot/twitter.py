@@ -31,6 +31,8 @@ tweepy_client = tweepy.Client(**twitter_credentials)
 
 CURRENT_PATH = Path(__file__).parent
 
+TWITTER_MAX_CHARS = 280
+
 TEMPLATE = jinja2.Template(
     source="""{{recipients}}
 
@@ -54,6 +56,27 @@ None
 """
 )
 
+# TODO: show total amount for earlier years.
+# how else to fit into a tweet.
+
+SHORT_TEMPLATE = jinja2.Template(
+    source="""{{recipients}}
+
+{% for donor in donors %}
+
+{{ donor.name }} political donations:
+
+FY 2020-21
+{% if donor.donations.fy_20_21 %}{% for donation in donor.donations.fy_20_21 %}
+{{ donation.1 }} {{ donation.0}}{% endfor %}
+{% else %}
+None
+{% endif %}
+{% endfor %}
+"""
+)
+
+
 with open(CURRENT_PATH / "data" / "twitter.json") as f:
     TWITTER_HANDLES = json.load(f)
 
@@ -61,6 +84,12 @@ with open(CURRENT_PATH / "data" / "donors.json") as f:
     DONORS = json.load(f)
 
 EXCLUDE_HANDLES = [h.lower() for h in ["@AusPolDonations"]]
+
+
+def tweet_is_too_long(tweet: str) -> bool:
+    # TODO: follow rules here
+    # https://developer.twitter.com/en/docs/counting-characters
+    return len(tweet) > TWITTER_MAX_CHARS
 
 
 def format_money(amount: int) -> str:
@@ -87,6 +116,13 @@ def reply_to_tweet(id: int, text: str) -> None:
     recipients = " ".join(handles)
     donor_data = [{"name": donor, "donations": DONORS[donor]} for donor in donor_set]
     tweet_text = TEMPLATE.render(donors=donor_data, recipients=recipients)
+
+    if tweet_is_too_long(tweet_text):
+        # TODO:
+        #  - better short template, include total donations for previous FY
+        #  - full tweet may be too long due to either FY 20/21 or earlier, we
+        #    should figure out which one.
+        tweet_text = SHORT_TEMPLATE.render(donors=donor_data, recipients=recipients)
 
     # send tweet
     try:
