@@ -328,76 +328,76 @@
 | Liberal                                     | Liberal Party of Australia SA LIB-SA                                              | $59,202         |
 | Citizens                                    | CEC Australia (Services) Pty Ltd                                                  | $58,950         |
 | Labor                                       | Australian Labor Party SA ALP-SA                                                  | $58,784         |
-|                                             | Australian Labor Party (ALP-FED)                                                  | $57,491         |
-|                                             | Warringah Independents Pty Ltd                                                    | $57,000         |
-|                                             | warringah independent pty ltd                                                     | $57,000         |
-|                                             | Liberal Party of Aust Lib - Fed                                                   | $57,000         |
-|                                             | Christian Democratic Party - WA                                                   | $57,000         |
-|                                             | ALP National Secretariat/ALP-FED                                                  | $56,700         |
-|                                             | ALP - National Secretariat (ALP-FED)                                              | $56,158         |
-|                                             | ALP National Secretariat - ALP-FED                                                | $56,000         |
-|                                             | Christian Democratic Party (Fred Nile Group) WA Branch                            | $55,500         |
-|                                             | Liberal Party of Australia (LIB/FED)                                              | $55,052         |
-|                                             | Australian Greens - ACT                                                           | $55,024         |
-|                                             | Liberal Party of Australia Lib-Fed                                                | $55,000         |
-|                                             | Australian Labor Party - QLD /ALP-QLD                                             | $54,250         |
-|                                             | SPP                                                                               | $54,000         |
-|                                             | ALP - National Secretariat Business Forum                                         | $54,000         |
-|                                             | Australian Labor Party (NT Branch)                                                | $54,000         |
-|                                             | ALP QLD                                                                           | $53,740         |
-|                                             | ALP-National Secretariat                                                          | $53,525         |
-|                                             | Liberal Party of Australia/LIB-TAS                                                | $53,270         |
-|                                             | LIB-VIC Liberal Party of Australia (Vic Division)                                 | $53,115         |
-|                                             | Australian Labor Party                                                            | $52,900         |
-|                                             | LIB Liberal Party of Australia                                                    | $52,250         |
-|                                             | Liberal Party of Aust NSW                                                         | $52,160         |
-|                                             | GETUP LTD                                                                         | $52,000         |
-|                                             | Liberal Party of Australia, NSW Division / LIB-NSW                                | $51,677         |
-|                                             | LIB - SA                                                                          | $51,119         |
-|                                             | Liberal Democratic Party (QLD Branch)                                             | $50,990         |
-|                                             | Australian Labor Party (QLD Branch)                                               | $50,400         |
-|                                             | Australian Labor Party (State of Queensland) / ALP-QLD                            | $50,268         |
-|                                             | NAT-WA National Party of Australia (WA) Inc                                       | $50,250         |
-|                                             | Republican Party of Australia                                                     | $50,200         |
-|                                             | Liberal Party of Australia (SA Branch)                                            | $50,175         |
-|                                             | Advance Australia Ltd                                                             | $50,000         |
-|                                             | LIB Party of Australia (QLD Division)                                             | $50,000         |
-|                                             | Get Up Ltd                                                                        | $50,000         |
-|                                             | Liberal Party of Australia (wa Division) Inc                                      | $50,000         |
-|                                             | Mr Bruce McIver, LNP Federal Campaign                                             | $50,000         |
-|                                             | Australia's First Nations Political Party (FNP)                                   | $50,000         |
-|                                             | Liberal Party of Australia (Victorian Division) LIB-VIC                           | $50,000         |
-|                                             | NSW Nationals - NAT-NSW                                                           | $50,000         |
-|                                             | Liberal Party of Australia - Brian Loughnane                                      | $50,000         |
-|                                             | ALP - Macquarie (Susan Templeman)(ALP-NSW)                                        | $50,000         |
-|                                             | Liberal Party of Australia NSW Division (LIB-NSW)                                 | $50,000         |
-|                                             | National (NSW)                                                                    | $50,000         |
-|                                             | Nationals - NAT-FED                                                               | $50,000         |
-|                                             | The Liberal Party of Australia (WA Division)                                      | $50,000         |
-|                                             | Liberal Party of Aust - LIB-FED                                                   | $50,000         |
-|                                             | CLP NT                                                                            | $50,000         |
-|                                             | ALP NT                                                                            | $50,000         |
-|                                             | Labour Movement Work Experience Program                                           | $49,857         |
-|                                             | Australian Greens - Victoria                                                      | $49,685         |
-|                                             | Progressive Business Association - VIC Branch                                     | $49,332         |
-|                                             | Liberal Party of Australia VIC                                                    | $49,118         |
-|                                             | National Party of Australia - Victoria (NAT-VIC)                                  | $48,900         |
-|                                             | ALP Progressive Business (SA)                                                     | $48,272         |
-|                                             | One Nation Queensland Division                                                    | $48,000         |
-|                                             | Progressive Business Association ALP-VIC                                          | $47,390         |
-|                                             | Australian Labor Party (South Australian Branch) ALP-SA                           | $46,774         |
-|                                             | LIB-VIC Liberal Party of Australia (Victoria Division)                            | $46,765         |
-|                                             | Liberal Party of Aust, NSW Division                                               | $46,070         |
-|                                             | Christian Democratic Party (Fred Nile Group) Natio                                | $45,587         |
-|                                             | Australian Labor Party ALP-FED                                                    | $45,296         |
-|                                             | CLPNT                                                                             | $45,000         |
-|                                             | Liberal Party Manly SEC                                                           | $45,000         |
-|                                             | Liberal Party of Australia / LIB-WA                                               | $45,000         |
-|                                             | Liberal Party of WA                                                               | $44,975         |
-|                                             | One Nation Western Australia - WA                                                 | $44,624         |
-|                                             | Liberal Party of Australia Federal Forum/LIB-NSW                                  | $44,000         |
-|                                             | National Party of NSW                                                             | $44,000         |
-|                                             | LIberal Party of Australia (WA)                                                   | $43,950         |
+| Labor                                       | Australian Labor Party (ALP-FED)                                                  | $57,491         |
+| Warringah Independent                       | Warringah Independents Pty Ltd                                                    | $57,000         |
+| Warringah Independent                       | warringah independent pty ltd                                                     | $57,000         |
+| Liberal                                     | Liberal Party of Aust Lib - Fed                                                   | $57,000         |
+| Christian Democratic                        | Christian Democratic Party - WA                                                   | $57,000         |
+| Labor                                       | ALP National Secretariat/ALP-FED                                                  | $56,700         |
+| Labor                                       | ALP - National Secretariat (ALP-FED)                                              | $56,158         |
+| Labor                                       | ALP National Secretariat - ALP-FED                                                | $56,000         |
+| Christian Democratic                        | Christian Democratic Party (Fred Nile Group) WA Branch                            | $55,500         |
+| Liberal                                     | Liberal Party of Australia (LIB/FED)                                              | $55,052         |
+| Greens                                      | Australian Greens - ACT                                                           | $55,024         |
+| Liberal                                     | Liberal Party of Australia Lib-Fed                                                | $55,000         |
+| Labor                                       | Australian Labor Party - QLD /ALP-QLD                                             | $54,250         |
+| Sustainable Australia                       | SPP                                                                               | $54,000         |
+| Labor                                       | ALP - National Secretariat Business Forum                                         | $54,000         |
+| Labor                                       | Australian Labor Party (NT Branch)                                                | $54,000         |
+| Labor                                       | ALP QLD                                                                           | $53,740         |
+| Labor                                       | ALP-National Secretariat                                                          | $53,525         |
+| Liberal                                     | Liberal Party of Australia/LIB-TAS                                                | $53,270         |
+| Liberal                                     | LIB-VIC Liberal Party of Australia (Vic Division)                                 | $53,115         |
+| Labor                                       | Australian Labor Party                                                            | $52,900         |
+| Liberal                                     | LIB Liberal Party of Australia                                                    | $52,250         |
+| Liberal                                     | Liberal Party of Aust NSW                                                         | $52,160         |
+| GetUp                                       | GETUP LTD                                                                         | $52,000         |
+| Liberal                                     | Liberal Party of Australia, NSW Division / LIB-NSW                                | $51,677         |
+| Liberal                                     | LIB - SA                                                                          | $51,119         |
+| Liberal Democratic                          | Liberal Democratic Party (QLD Branch)                                             | $50,990         |
+| Labor                                       | Australian Labor Party (QLD Branch)                                               | $50,400         |
+| Labor                                       | Australian Labor Party (State of Queensland) / ALP-QLD                            | $50,268         |
+| National                                    | NAT-WA National Party of Australia (WA) Inc                                       | $50,250         |
+| Republican                                  | Republican Party of Australia                                                     | $50,200         |
+| Liberal                                     | Liberal Party of Australia (SA Branch)                                            | $50,175         |
+| Liberal                                     | Advance Australia Ltd                                                             | $50,000         |
+| Liberal                                     | LIB Party of Australia (QLD Division)                                             | $50,000         |
+| GetUp                                       | Get Up Ltd                                                                        | $50,000         |
+| Liberal                                     | Liberal Party of Australia (wa Division) Inc                                      | $50,000         |
+| LNP                                         | Mr Bruce McIver, LNP Federal Campaign                                             | $50,000         |
+| First Nations                               | Australia's First Nations Political Party (FNP)                                   | $50,000         |
+| Liberal                                     | Liberal Party of Australia (Victorian Division) LIB-VIC                           | $50,000         |
+| National                                    | NSW Nationals - NAT-NSW                                                           | $50,000         |
+| Liberal                                     | Liberal Party of Australia - Brian Loughnane                                      | $50,000         |
+| Labor                                       | ALP - Macquarie (Susan Templeman)(ALP-NSW)                                        | $50,000         |
+| Liberal                                     | Liberal Party of Australia NSW Division (LIB-NSW)                                 | $50,000         |
+| National                                    | National (NSW)                                                                    | $50,000         |
+| National                                    | Nationals - NAT-FED                                                               | $50,000         |
+| Liberal                                     | The Liberal Party of Australia (WA Division)                                      | $50,000         |
+| Liberal                                     | Liberal Party of Aust - LIB-FED                                                   | $50,000         |
+| Country Liberal                             | CLP NT                                                                            | $50,000         |
+| Labor                                       | ALP NT                                                                            | $50,000         |
+| Labor                                       | Labour Movement Work Experience Program                                           | $49,857         |
+| Greens                                      | Australian Greens - Victoria                                                      | $49,685         |
+| Labor                                       | Progressive Business Association - VIC Branch                                     | $49,332         |
+| Liberal                                     | Liberal Party of Australia VIC                                                    | $49,118         |
+| National                                    | National Party of Australia - Victoria (NAT-VIC)                                  | $48,900         |
+| Labor                                       | ALP Progressive Business (SA)                                                     | $48,272         |
+| One Nation                                  | One Nation Queensland Division                                                    | $48,000         |
+| Labor                                       | Progressive Business Association ALP-VIC                                          | $47,390         |
+| Labor                                       | Australian Labor Party (South Australian Branch) ALP-SA                           | $46,774         |
+| Liberal                                     | LIB-VIC Liberal Party of Australia (Victoria Division)                            | $46,765         |
+| Liberal                                     | Liberal Party of Aust, NSW Division                                               | $46,070         |
+| Christian Democratic                        | Christian Democratic Party (Fred Nile Group) Natio                                | $45,587         |
+| Labor                                       | Australian Labor Party ALP-FED                                                    | $45,296         |
+| Country Liberal                             | CLPNT                                                                             | $45,000         |
+| Liberal                                     | Liberal Party Manly SEC                                                           | $45,000         |
+| Liberal                                     | Liberal Party of Australia / LIB-WA                                               | $45,000         |
+| Liberal                                     | Liberal Party of WA                                                               | $44,975         |
+| One Nation                                  | One Nation Western Australia - WA                                                 | $44,624         |
+| Liberal                                     | Liberal Party of Australia Federal Forum/LIB-NSW                                  | $44,000         |
+| National                                    | National Party of NSW                                                             | $44,000         |
+| Liberal                                     | LIberal Party of Australia (WA)                                                   | $43,950         |
 |                                             | Australian Labor Party/ALP-FED                                                    | $43,000         |
 |                                             | 250 Club Ltd                                                                      | $42,900         |
 |                                             | Independents For Climate Action Now                                               | $42,000         |
