@@ -35,6 +35,7 @@ TEMPLATE = jinja2.Template(
     source="""{{recipients}}
 
 {% for donor in donors %}
+
 {{ donor.name }}
 
 FY 2020-21
@@ -59,13 +60,16 @@ with open(CURRENT_PATH / "data" / "twitter.json") as f:
 with open(CURRENT_PATH / "data" / "donors.json") as f:
     DONORS = json.load(f)
 
+EXCLUDE_HANDLES = [h.lower() for h in ["@AusPolDonations"]]
+
 
 def format_money(amount: int) -> str:
     return "${:,}".format(amount)
 
 
 def get_handles_from_tweet(tweet: str) -> List[str]:
-    return [word.lower() for word in tweet.split() if word.startswith(("@", "#"))]
+    handles = [word.lower() for word in tweet.split() if word.startswith(("@", "#"))]
+    return [handle for handle in handles if handle not in EXCLUDE_HANDLES]
 
 
 def reply_to_tweet(id: int, text: str) -> None:
@@ -80,7 +84,11 @@ def reply_to_tweet(id: int, text: str) -> None:
     donor_set = donors_sets_from_handles[0]
 
     # combine donor names and donations for the template context
-    donor_data = [{"name": donor, "donations": DONORS[donor]} for donor in donor_set]
+    recipients = " ".join(handles)
+    donor_data = [
+        {"name": donor, "donations": DONORS[donor], "recipients": recipients}
+        for donor in donor_set
+    ]
     tweet_text = TEMPLATE.render(donors=donor_data)
 
     # send tweet
