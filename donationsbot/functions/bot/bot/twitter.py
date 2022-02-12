@@ -85,11 +85,8 @@ def reply_to_tweet(id: int, text: str) -> None:
 
     # combine donor names and donations for the template context
     recipients = " ".join(handles)
-    donor_data = [
-        {"name": donor, "donations": DONORS[donor], "recipients": recipients}
-        for donor in donor_set
-    ]
-    tweet_text = TEMPLATE.render(donors=donor_data)
+    donor_data = [{"name": donor, "donations": DONORS[donor]} for donor in donor_set]
+    tweet_text = TEMPLATE.render(donors=donor_data, recipients=recipients)
 
     # send tweet
     tweepy_client.create_tweet(in_reply_to_tweet_id=id, text=tweet_text)
