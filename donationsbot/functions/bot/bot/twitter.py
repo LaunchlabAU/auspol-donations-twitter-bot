@@ -66,6 +66,12 @@ FY 20-21: {% if donor.donations.fy_20_21 %}
 {% else %}Nothing{% endif %}{% endfor %}"""
 )
 
+NOT_FOUND_TEMPLATE = jinja2.Template(
+    source="""Could not find any donation data for {{ donors }}.
+    
+    If you think we're missing something, please help us with the dataset at https://github.com/LaunchlabAU/auspol-donations-twitter-bot"""
+)
+
 
 with open(CURRENT_PATH / "data" / "twitter.json") as f:
     TWITTER_HANDLES = json.load(f)
@@ -73,7 +79,7 @@ with open(CURRENT_PATH / "data" / "twitter.json") as f:
 with open(CURRENT_PATH / "data" / "donors.json") as f:
     DONORS = json.load(f)
 
-EXCLUDE_HANDLES = [h.lower() for h in ["@AusPolDonations"]]
+EXCLUDE_HANDLES = [h.lower() for h in ["@AusPolDonations", "#auspol"]]
 
 
 def tweet_is_too_long(tweet: str) -> bool:
@@ -125,14 +131,16 @@ def reply_to_tweet(id: int, text: str, testing: bool = False) -> None:
     donors_sets_from_handles = [
         donor for handle in handles if (donor := TWITTER_HANDLES.get(handle))
     ]
+    recipients = " ".join(handles)
     if not donors_sets_from_handles:
+        tweet_text = NOT_FOUND_TEMPLATE.render(donors=recipients)
+        tweepy_client.create_tweet(in_reply_to_tweet_id=id, text=tweet_text)
         return
 
     # get the donors related to the first handle in the tweet
     donor_set = donors_sets_from_handles[0]
 
     # combine donor names and donations for the template context
-    recipients = " ".join(handles)
     donor_data = [
         {"name": clean_donor_name(name=donor), "donations": DONORS[donor]}
         for donor in donor_set
