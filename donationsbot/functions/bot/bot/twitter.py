@@ -120,7 +120,7 @@ def combine_donor_data(donor_data):
     return [{"name": name, "donations": donations}]
 
 
-def reply_to_tweet(id: int, text: str) -> None:
+def reply_to_tweet(id: int, text: str, testing: bool = False) -> None:
     handles = get_handles_from_tweet(tweet=text)
     donors_sets_from_handles = [
         donor for handle in handles if (donor := TWITTER_HANDLES.get(handle))
@@ -144,7 +144,9 @@ def reply_to_tweet(id: int, text: str) -> None:
     # cases within a tweet without having to drop contributions before FY 20-21
     combined_donor_data = combine_donor_data(donor_data)
     tweet_text = TEMPLATE.render(donors=combined_donor_data, recipients=recipients)
-
+    if testing:
+        print(tweet_text)
+        return
     if tweet_is_too_long(tweet_text):
         # TODO:
         #  - better short template, include total donations for previous FY
