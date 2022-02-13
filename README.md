@@ -10,11 +10,11 @@ The bot will reply with the donations of the first twitter handle mentioned in t
 
 ## Dataset
 
-The bot requires two datasets on top of the data available from the AEC, one to map twitter handles to donors, and the other to map donation recipients back to political parties. We appreciate any help in completing & checking these datasets, which can be done with a pull request.
+The bot requires two datasets on top of the data available from the AEC, one to map twitter handles to donors, and the other to map donation recipients back to political parties. We appreciate any help in completing & checking these datasets, which can be done by clicking on the pencil icon to the top-right of a table.
 
 ### Mapping twitter handles to donors:
 
-Please only submit changes to the "Twitter" column.
+Please only submit changes to the "Twitter" column. To edit, click on the pencil icon at the top right of the table.
 
 [Twitter donors table: page 1](data/tables/twitter_donors_page_1.md)
 
@@ -22,7 +22,7 @@ Please only submit changes to the "Twitter" column.
 
 ### Mapping donation recipients to political parties.
 
-Please only submit changes to the "Party" column.
+Please only submit changes to the "Party" column. To edit, click on the pencil icon at the top right of the table.
 
 [Parties table](data/tables/parties.md)
 
@@ -34,4 +34,4 @@ A copy of the 2022 dataset is [here](data/src/2022)
 
 ## Contributing.
 
-To contribute, please submit changes to the tables as a pull request.
+To contribute, please submit changes to the tables as a pull request. You can create a pull request by clicking on the pencil icon at the top right of a table, making the changes, then when you save the changes we will be able to merge them into the datatset. Once we merge in your changes, it will take about 10 minutes until the new dataset is live and in use by the bot.
