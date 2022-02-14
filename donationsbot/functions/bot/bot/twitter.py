@@ -79,7 +79,9 @@ with open(CURRENT_PATH / "data" / "twitter.json") as f:
 with open(CURRENT_PATH / "data" / "donors.json") as f:
     DONORS = json.load(f)
 
-EXCLUDE_HANDLES = [h.lower() for h in ["@AusPolDonations", "#auspol"]]
+EXCLUDE_HANDLES = [
+    h.lower() for h in ["@AusPolDonations", "#auspol", "#DonationsReform"]
+]
 
 
 def tweet_is_too_long(tweet: str) -> bool:
@@ -128,6 +130,8 @@ def combine_donor_data(donor_data):
 
 def reply_to_tweet(id: int, text: str, testing: bool = False) -> None:
     handles = get_handles_from_tweet(tweet=text)
+    if not handles:
+        return
     donors_sets_from_handles = [
         donor for handle in handles if (donor := TWITTER_HANDLES.get(handle))
     ]
