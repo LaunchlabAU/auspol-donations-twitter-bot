@@ -35,3 +35,5 @@ A copy of the 2022 dataset is [here](data/src/2022)
 ## Contributing.
 
 To contribute, please submit changes to the tables as a pull request. You can create a pull request by clicking on the pencil icon at the top right of a table, making the changes, then when you save the changes we will be able to merge them into the datatset. Once we merge in your changes, it will take about 10 minutes until the new dataset is live and in use by the bot.
+
+If you want to discuss either details of the dataset or features/bugs of the project as a whole feel free to create an issue https://github.com/LaunchlabAU/auspol-donations-twitter-bot/issues
