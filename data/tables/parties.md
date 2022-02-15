@@ -1108,96 +1108,96 @@
 | LIB                                         | LIBERAL PARTY- FOR DR STEPHEN RUSS                                                | $5,000          |
 | LIB                                         | Liberal Party of Australia, NSW Division / LIB/NSW                                | $5,000          |
 | GLT                                         | Glen Lazarus Team - GLT                                                           | $5,000          |
-|                                             | LNP DICKSON                                                                       | $5,000          |
-|                                             | Liberal Party of Australia- Victorian Division                                    | $5,000          |
-|                                             | Liberal Party SA Division (Mayo FEC)                                              | $5,000          |
-|                                             | Country Labor Party/CLR-NSW                                                       | $5,000          |
-|                                             | ALP NSW Branch - Chifley FEC                                                      | $5,000          |
-|                                             | Aston Electorate Committee - LIB-VIC                                              | $5,000          |
-|                                             | LIB-SA, Hindmarsh FEC                                                             | $5,000          |
-|                                             | LIB-SA, LIB-SA, Hartley SEC                                                       | $5,000          |
-|                                             | LIB-SA, Hartley SEC                                                               | $5,000          |
-|                                             | Hunter Federal Campaign Account - ALP-NSW                                         | $5,000          |
-|                                             | Liberal Party of Australia Tasmania LIB-TAS                                       | $5,000          |
-|                                             | LNP - LNP Brisbane FDC 00260                                                      | $5,000          |
-|                                             | Liberal Party of Australia / LIB                                                  | $5,000          |
-|                                             | Eden-Monaro FEC - LIB-NSW                                                         | $5,000          |
-|                                             | LIB-WA - Dinner 2013                                                              | $5,000          |
-|                                             | LNP-QLD - Federal Budget reply                                                    | $5,000          |
-|                                             | LIB-VIC Higgins Federal Electorate Conference                                     | $5,000          |
-|                                             | Eden Monaro FEC (Lib Fed)                                                         | $5,000          |
-|                                             | Australian Labor Party - Eden Monaro Federal Campaign                             | $5,000          |
-|                                             | LIB-SA - Christopher Pyne                                                         | $5,000          |
-|                                             | LIB-SA - Matthew Williams                                                         | $5,000          |
-|                                             | LIB-SA - Andrew Southcott                                                         | $5,000          |
-|                                             | LIB-WA - Liberal Party (W.A. Division) Inc.                                       | $5,000          |
-|                                             | ALP-QLD - Australian Labor Party (State of Queensland)                            | $5,000          |
-|                                             | ALP-WA - Australian Labor Party (Western Australian Branch)                       | $5,000          |
-|                                             | Australian Labour Party (SA Branch) ALP-SA                                        | $5,000          |
-|                                             | Forward Ipswich Inc. (ALP QLD)                                                    | $5,000          |
-|                                             | Forward Ipswich Inc (ALP QLD)                                                     | $5,000          |
-|                                             | Doboy MEC ALP (ALP QLD)                                                           | $5,000          |
-|                                             | Australian Labor Party (NSW Branch) Fed                                           | $5,000          |
-|                                             | Liberal Party of Australia - VIC/LIB-VIC                                          | $5,000          |
-|                                             | Liberal Party NSW Nth Syd FEC Nthwd NS                                            | $5,000          |
-|                                             | G Ward - Liberal Party NSW                                                        | $5,000          |
-|                                             | Heads G WardLiberal South Coast                                                   | $5,000          |
-|                                             | Epping SEC Liberal NSW                                                            | $5,000          |
-|                                             | Mackellar Business Forum                                                          | $5,000          |
-|                                             | Liberal Party of Australia - Mackellar Business Forum                             | $5,000          |
-|                                             | ALP - Calare (Kevin Duffy)(ALP-NSW)                                               | $5,000          |
-|                                             | ALP Tasmania Braddon (Sid Sidebottom)                                             | $5,000          |
-|                                             | ALP Tasmania Franklin (Julie Collins)                                             | $5,000          |
-|                                             | ALP NSW (Nigel Gould)                                                             | $5,000          |
-|                                             | Liberal Party of Australia (NSW Division - Manly SEC)                             | $5,000          |
-|                                             | Liberal National Party (Jane Prentice)                                            | $5,000          |
-|                                             | Liberal National Party (QLD)                                                      | $5,000          |
-|                                             | 2010 Business Forum - Liberal Party of NSW                                        | $5,000          |
-|                                             | National Party of Australia, WA Division/ NAT-WA                                  | $5,000          |
-|                                             | Hon Jason Clare MP                                                                | $5,000          |
-|                                             | Liberal Party of Aust - Lib NSW                                                   | $5,000          |
-|                                             | Liberal Party of Australia - NSW Division - LIB NSW                               | $5,000          |
-|                                             | Michael Danby MHR - ALP Melbourne Ports                                           | $5,000          |
-|                                             | Senator Glen Sterle ALP Cmapaign                                                  | $5,000          |
-|                                             | Yvette D'ath MP ALP Petire FEC                                                    | $5,000          |
-|                                             | Bliar Campaign QLD Labor Party                                                    | $5,000          |
-|                                             | ALP - Moncreif FDE                                                                | $5,000          |
-|                                             | ALP - Forde FDE                                                                   | $5,000          |
-|                                             | Australian Labour Party - National Secretariat                                    | $5,000          |
-|                                             | The State Secretary - ALP QLD - ALP-QLD                                           | $5,000          |
-|                                             | Drummoyne State Campaign A/C ALP-NSW                                              | $5,000          |
-|                                             | ALP-TAS / Australian Labor Party - Tas                                            | $5,000          |
-|                                             | Australian Labor Party (Queensland Branch)                                        | $5,000          |
-|                                             | Lalor FEA Campaign Account Australian Labor Party National Secretariat            | $5,000          |
-|                                             | Australian Labor Party - TAS / ALP-TAS                                            | $5,000          |
-|                                             | Liberal Party of Australia - TAS / LIB-TAS                                        | $5,000          |
-|                                             | Australian Greens - TAS / GRN-TAS                                                 | $5,000          |
-|                                             | Australian Labor Party - QLD / ALP-QLD                                            | $5,000          |
-|                                             | Family First Party - QLD                                                          | $5,000          |
-|                                             | Menzies Research Centre Limited                                                   | $5,000          |
-|                                             | Liberal Lord Mayor of Brisbane                                                    | $5,000          |
-|                                             | Australian Shooters Party - NATIONAL                                              | $5,000          |
-|                                             | Parramatta Business Network                                                       | $5,000          |
-|                                             | The Chifley Research Centre Ltd                                                   | $5,000          |
-|                                             | VECCI Finance & Administration                                                    | $5,000          |
-|                                             | Mark Nevill MLC                                                                   | $5,000          |
-|                                             | Sydney Alliance Limited                                                           | $5,000          |
-|                                             | ALP Progressive Business Association                                              | $4,950          |
-|                                             | National Federal Secretariat                                                      | $4,950          |
-|                                             | Higgins 200 Club LIB VIC                                                          | $4,800          |
-|                                             | LIB VIC                                                                           | $4,700          |
-|                                             | ADD LIB                                                                           | $4,655          |
-|                                             | ALP-SA: SA Progressive Business Inc.                                              | $4,560          |
-|                                             | Lib-VIC                                                                           | $4,550          |
-|                                             | National Party of Australia - NAT-NSW                                             | $4,500          |
-|                                             | NATS - FED                                                                        | $4,500          |
-|                                             | National Party QLD                                                                | $4,500          |
-|                                             | Liberal Party of Queensland / LNP-QLD                                             | $4,400          |
-|                                             | National Party NAT-NSW                                                            | $4,400          |
-|                                             | LIB-TAS Liberal Party of Australia (Tasmanian Division)                           | $4,400          |
-|                                             | Progressive Busine Association / ALP-VIC                                          | $4,400          |
-|                                             | Murray 250 Club                                                                   | $4,400          |
-|                                             | Liberal Party of Australia, NSW Division/LIB-NSW                                  | $4,385          |
+| NLP                                         | LNP DICKSON                                                                       | $5,000          |
+| LIB                                         | Liberal Party of Australia- Victorian Division                                    | $5,000          |
+| LIB                                         | Liberal Party SA Division (Mayo FEC)                                              | $5,000          |
+| CLR                                         | Country Labor Party/CLR-NSW                                                       | $5,000          |
+| ALP                                         | ALP NSW Branch - Chifley FEC                                                      | $5,000          |
+| LIB                                         | Aston Electorate Committee - LIB-VIC                                              | $5,000          |
+| LIB                                         | LIB-SA, Hindmarsh FEC                                                             | $5,000          |
+| LIB                                         | LIB-SA, LIB-SA, Hartley SEC                                                       | $5,000          |
+| LIB                                         | LIB-SA, Hartley SEC                                                               | $5,000          |
+| ALP                                         | Hunter Federal Campaign Account - ALP-NSW                                         | $5,000          |
+| LIB                                         | Liberal Party of Australia Tasmania LIB-TAS                                       | $5,000          |
+| LNP                                         | LNP - LNP Brisbane FDC 00260                                                      | $5,000          |
+| LNP                                         | Liberal Party of Australia / LIB                                                  | $5,000          |
+| LIB                                         | Eden-Monaro FEC - LIB-NSW                                                         | $5,000          |
+| LIB                                         | LIB-WA - Dinner 2013                                                              | $5,000          |
+| LNP                                         | LNP-QLD - Federal Budget reply                                                    | $5,000          |
+| LIB                                         | LIB-VIC Higgins Federal Electorate Conference                                     | $5,000          |
+| LIB                                         | Eden Monaro FEC (Lib Fed)                                                         | $5,000          |
+| ALP                                         | Australian Labor Party - Eden Monaro Federal Campaign                             | $5,000          |
+| LIB                                         | LIB-SA - Christopher Pyne                                                         | $5,000          |
+| LIB                                         | LIB-SA - Matthew Williams                                                         | $5,000          |
+| LIB                                         | LIB-SA - Andrew Southcott                                                         | $5,000          |
+| LIB                                         | LIB-WA - Liberal Party (W.A. Division) Inc.                                       | $5,000          |
+| ALP                                         | ALP-QLD - Australian Labor Party (State of Queensland)                            | $5,000          |
+| ALP                                         | ALP-WA - Australian Labor Party (Western Australian Branch)                       | $5,000          |
+| ALP                                         | Australian Labour Party (SA Branch) ALP-SA                                        | $5,000          |
+| ALP                                         | Forward Ipswich Inc. (ALP QLD)                                                    | $5,000          |
+| ALP                                         | Forward Ipswich Inc (ALP QLD)                                                     | $5,000          |
+| ALP                                         | Doboy MEC ALP (ALP QLD)                                                           | $5,000          |
+| ALP                                         | Australian Labor Party (NSW Branch) Fed                                           | $5,000          |
+| LIB                                         | Liberal Party of Australia - VIC/LIB-VIC                                          | $5,000          |
+| LIB                                         | Liberal Party NSW Nth Syd FEC Nthwd NS                                            | $5,000          |
+| LIB                                         | G Ward - Liberal Party NSW                                                        | $5,000          |
+| LIB                                         | Heads G WardLiberal South Coast                                                   | $5,000          |
+| LIB                                         | Epping SEC Liberal NSW                                                            | $5,000          |
+| LIB                                         | Mackellar Business Forum                                                          | $5,000          |
+| LIB                                         | Liberal Party of Australia - Mackellar Business Forum                             | $5,000          |
+| ALP                                         | ALP - Calare (Kevin Duffy)(ALP-NSW)                                               | $5,000          |
+| ALP                                         | ALP Tasmania Braddon (Sid Sidebottom)                                             | $5,000          |
+| ALP                                         | ALP Tasmania Franklin (Julie Collins)                                             | $5,000          |
+| ALP                                         | ALP NSW (Nigel Gould)                                                             | $5,000          |
+| LIB                                         | Liberal Party of Australia (NSW Division - Manly SEC)                             | $5,000          |
+| LIB                                         | Liberal National Party (Jane Prentice)                                            | $5,000          |
+| LIB                                         | Liberal National Party (QLD)                                                      | $5,000          |
+| LIB                                         | 2010 Business Forum - Liberal Party of NSW                                        | $5,000          |
+| NAT                                         | National Party of Australia, WA Division/ NAT-WA                                  | $5,000          |
+| ALP                                         | Hon Jason Clare MP                                                                | $5,000          |
+| LIB                                         | Liberal Party of Aust - Lib NSW                                                   | $5,000          |
+| LIB                                         | Liberal Party of Australia - NSW Division - LIB NSW                               | $5,000          |
+| ALP                                         | Michael Danby MHR - ALP Melbourne Ports                                           | $5,000          |
+| ALP                                         | Senator Glen Sterle ALP Cmapaign                                                  | $5,000          |
+| ALP                                         | Yvette D'ath MP ALP Petire FEC                                                    | $5,000          |
+| ALP                                         | Bliar Campaign QLD Labor Party                                                    | $5,000          |
+| ALP                                         | ALP - Moncreif FDE                                                                | $5,000          |
+| ALP                                         | ALP - Forde FDE                                                                   | $5,000          |
+| ALP                                         | Australian Labour Party - National Secretariat                                    | $5,000          |
+| ALP                                         | The State Secretary - ALP QLD - ALP-QLD                                           | $5,000          |
+| ALP                                         | Drummoyne State Campaign A/C ALP-NSW                                              | $5,000          |
+| ALP                                         | ALP-TAS / Australian Labor Party - Tas                                            | $5,000          |
+| ALP                                         | Australian Labor Party (Queensland Branch)                                        | $5,000          |
+| ALP                                         | Lalor FEA Campaign Account Australian Labor Party National Secretariat            | $5,000          |
+| ALP                                         | Australian Labor Party - TAS / ALP-TAS                                            | $5,000          |
+| LIB                                         | Liberal Party of Australia - TAS / LIB-TAS                                        | $5,000          |
+| GRN                                         | Australian Greens - TAS / GRN-TAS                                                 | $5,000          |
+| ALP                                         | Australian Labor Party - QLD / ALP-QLD                                            | $5,000          |
+| FFP                                         | Family First Party - QLD                                                          | $5,000          |
+| LIB                                         | Menzies Research Centre Limited                                                   | $5,000          |
+| LIB                                         | Liberal Lord Mayor of Brisbane                                                    | $5,000          |
+| ASP                                         | Australian Shooters Party - NATIONAL                                              | $5,000          |
+| Parramatta Business Network                 | Parramatta Business Network                                                       | $5,000          |
+| ALP                                         | The Chifley Research Centre Ltd                                                   | $5,000          |
+| VECCI Finance & Administration              | VECCI Finance & Administration                                                    | $5,000          |
+| Mark Nevill MLC                             | Mark Nevill MLC                                                                   | $5,000          |
+| Sydney Alliance Limited                     | Sydney Alliance Limited                                                           | $5,000          |
+| ALP                                         | ALP Progressive Business Association                                              | $4,950          |
+| NAT                                         | National Federal Secretariat                                                      | $4,950          |
+| LIB                                         | Higgins 200 Club LIB VIC                                                          | $4,800          |
+| LIB                                         | LIB VIC                                                                           | $4,700          |
+| LIB                                         | ADD LIB                                                                           | $4,655          |
+| ALP                                         | ALP-SA: SA Progressive Business Inc.                                              | $4,560          |
+| LIB                                         | Lib-VIC                                                                           | $4,550          |
+| NAT                                         | National Party of Australia - NAT-NSW                                             | $4,500          |
+| NAT                                         | NATS - FED                                                                        | $4,500          |
+| NAT                                         | National Party QLD                                                                | $4,500          |
+| LNP                                         | Liberal Party of Queensland / LNP-QLD                                             | $4,400          |
+| NAT                                         | National Party NAT-NSW                                                            | $4,400          |
+| LIB                                         | LIB-TAS Liberal Party of Australia (Tasmanian Division)                           | $4,400          |
+| ALP                                         | Progressive Busine Association / ALP-VIC                                          | $4,400          |
+| LIB                                         | Murray 250 Club                                                                   | $4,400          |
+| LIB                                         | Liberal Party of Australia, NSW Division/LIB-NSW                                  | $4,385          |
 |                                             | Victorian ALP                                                                     | $4,354          |
 |                                             | Labor Party of NSW                                                                | $4,344          |
 |                                             | Tony McGrane                                                                      | $4,300          |
