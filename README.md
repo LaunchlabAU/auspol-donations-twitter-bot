@@ -26,6 +26,8 @@ Please only submit changes to the "Party" column. To edit, click on the pencil i
 
 [Parties table](data/tables/parties.md)
 
+We try to stick to party codes as per https://www.aec.gov.au/elections/federal_elections/election-codes.htm where possible, with the exception of some two-letter codes which are commonly expressed as 3 letter codes: NP -> NAT, and LP -> LIB. Using 3 letter codes helps to align the tables in the tweet.
+
 ## Source data (AEC)
 
 AEC data is available at https://transparency.aec.gov.au/
