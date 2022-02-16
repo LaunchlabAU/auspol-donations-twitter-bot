@@ -1298,106 +1298,106 @@
 | LIB                                         | LIB-FED: Budget Reply Luncheon                                                    | $3,000          |
 | ALP                                         | Dobell Federal Campaign (Australian Labor Party)                                  | $3,000          |
 | LIB                                         | Liberal Party Sydney SEC                                                          | $3,000          |
-|                                             | Ripon SECC                                                                        | $3,000          |
-|                                             | Melbourne SECC                                                                    | $3,000          |
-|                                             | Mitcham SECC                                                                      | $3,000          |
-|                                             | Seymour SECC                                                                      | $3,000          |
-|                                             | Wills FEA                                                                         | $3,000          |
-|                                             | Liberal Party of Australia Dinner - A. J. Clark AM                                | $3,000          |
-|                                             | United Trade & Labour Council of South Australia                                  | $3,000          |
-|                                             | Liberal Party - Benambra Electorate Council                                       | $3,000          |
-|                                             | Australian Labor Party - Legacies and Gifts Ltd                                   | $3,000          |
-|                                             | Australian Reform Party - NATIONAL                                                | $3,000          |
-|                                             | LIB-NSW Liberal Party of Australia NSW Division                                   | $2,920          |
-|                                             | Liberal Party of Australia SA Division                                            | $2,908          |
-|                                             | Aust Labor Party                                                                  | $2,900          |
-|                                             | Country Labor Party - NSW                                                         | $2,900          |
-|                                             | Higgins 200 Club LIB-VIC                                                          | $2,873          |
-|                                             | Casey Business Briefing - LIB-VIC                                                 | $2,860          |
-|                                             | CLR-NSW                                                                           | $2,850          |
-|                                             | National Party of Australia (S.A.) Inc.                                           | $2,800          |
-|                                             | Liberal Party of Australia - Cook FEC                                             | $2,743          |
-|                                             | Nationls (NSW)                                                                    | $2,727          |
-|                                             | The Platinum Circle (LNP-QLD)                                                     | $2,700          |
-|                                             | ALP New South Wales Branch/ALP-NSW                                                | $2,690          |
-|                                             | ALP - ACT Branch                                                                  | $2,682          |
-|                                             | SA Progressive Business ALP-SA                                                    | $2,640          |
-|                                             | Liberal Party of Australia Hindmarsh FEC LIB                                      | $2,600          |
-|                                             | Tasmanian Labor                                                                   | $2,500          |
-|                                             | Liberal Party Australia LIB-FED                                                   | $2,500          |
-|                                             | Liberal Party of Australia LNP-QLD                                                | $2,500          |
-|                                             | Enterprise 500                                                                    | $2,500          |
-|                                             | LIB-VIC Menzies 200 Club                                                          | $2,500          |
-|                                             | LNP Mt Coot-tha SEC                                                               | $2,500          |
-|                                             | LNP - Gladstone SEC                                                               | $2,500          |
-|                                             | ALP (NSW Branch) Blaxland FCA - ALP-NSW                                           | $2,500          |
-|                                             | Liberal Party Wannon - LIB-VIC                                                    | $2,500          |
-|                                             | Higgins Electorate Conference - LIB-VIC                                           | $2,500          |
-|                                             | Fowler Federal Campaign Account - ALP-NSW                                         | $2,500          |
-|                                             | LNP - LNP Moreton FDC                                                             | $2,500          |
-|                                             | ALP - Fed: Federal Budget Night Dinner                                            | $2,500          |
-|                                             | Australian Labor Party - SA Progressive Business - ALP-SA                         | $2,500          |
-|                                             | Liberal Party Geraldton                                                           | $2,500          |
-|                                             | Baulkham Hills SEC                                                                | $2,500          |
-|                                             | Andrew Constance - LIB - NSW                                                      | $2,500          |
-|                                             | Wollondilly                                                                       | $2,500          |
-|                                             | The Bradfield Forum                                                               | $2,500          |
-|                                             | Australian Democrats - ACT Division                                               | $2,500          |
-|                                             | Liberal Party of Australia - Victoria Division                                    | $2,450          |
-|                                             | Liberal Party of Australia - LIB-NSW                                              | $2,320          |
-|                                             | Liberal Party NSW Division - Paterson                                             | $2,300          |
-|                                             | LIB-VIC - Evening brief - Hockey                                                  | $2,273          |
-|                                             | Liberal Party VIC - Enterprise 500 Victoria                                       | $2,272          |
-|                                             | ENTERPRISE VICTORIA/LIBERAL PARTY LIB-VIC                                         | $2,250          |
-|                                             | Democratic Labor Party (DLP) - Queensland Branch                                  | $2,200          |
-|                                             | Australian Labor Party (Victorian Branch) (paid to Progressive Business)          | $2,200          |
-|                                             | ALP (VIC) (Dinner held by Progressive Business)                                   | $2,200          |
-|                                             | ALP (VIC) (Dinnwe held by Progressive Business)                                   | $2,200          |
-|                                             | LNP-QLD - Function 18/12/13                                                       | $2,200          |
-|                                             | Australian Labor Party NSW Branch Federal Capaign Account - ALP-NSW               | $2,200          |
-|                                             | LIB-TAS - Tasmanian Division                                                      | $2,200          |
-|                                             | ALP-QLD - Queensland Party                                                        | $2,200          |
-|                                             | ALP NSW Branch - Anthony Albanese                                                 | $2,200          |
-|                                             | Austrlaian Labor Party                                                            | $2,200          |
-|                                             | Australian Labor Party (QLD) ALP                                                  | $2,200          |
-|                                             | Liberal Party of Australia - Citizen Din                                          | $2,200          |
-|                                             | Liberal Party of Australia - NSW LIB-NSW                                          | $2,200          |
-|                                             | Casey Business Briefing Club Melbourne - LIB-VIC                                  | $2,200          |
-|                                             | Progressive Business - VIC-EFT                                                    | $2,199          |
-|                                             | Catering for ALP Lunch                                                            | $2,188          |
-|                                             | Sheraton on the Park - Plibersek function - ALP                                   | $2,167          |
-|                                             | Liberal Party of Australia (S.A. Division) / LIB-SA                               | $2,150          |
-|                                             | ALP Bruce FEA                                                                     | $2,145          |
-|                                             | Liberal Party of Australia NSW Division - Bega                                    | $2,100          |
-|                                             | Liberal Party of Australia NSW Division - Mackellar                               | $2,100          |
-|                                             | ALP-VIC - Australian Labor Party (Victorian Branch)                               | $2,100          |
-|                                             | Liberal Party of Aust                                                             | $2,100          |
-|                                             | LPA NSW Division - LIB-NSW                                                        | $2,080          |
-|                                             | LIB -VIC Liberal Party of Australia (Victorian Division)                          | $2,000          |
-|                                             | LIB - NSW (Business event with Minister)                                          | $2,000          |
-|                                             | ALP - FED (Business event with Shadow Ministers)                                  | $2,000          |
-|                                             | ALP FEC LILLEY ALP-QLD                                                            | $2,000          |
-|                                             | Liberal Party of Australia - SA Division (Mayo FEC)                               | $2,000          |
-|                                             | LNP WIDE BAY                                                                      | $2,000          |
-|                                             | Liberal Party of Australia (Victorian Division) Lib VIC                           | $2,000          |
-|                                             | Lib-WA Federal Campaign                                                           | $2,000          |
-|                                             | Liberal Party - VIC Division                                                      | $2,000          |
-|                                             | LPA SA Division                                                                   | $2,000          |
-|                                             | Australian Labor Party (South Australian Branch) (ALP-SA)                         | $2,000          |
-|                                             | LIB-VIC (The Higgins Federal Electorate Conference)                               | $2,000          |
-|                                             | Liberal Party of Australia (Tas Branch)                                           | $2,000          |
-|                                             | LNP Bonner FDC - LIB-NSW                                                          | $2,000          |
-|                                             | LIB-VIC Liberal Party of Victoria (Victorian Division)                            | $2,000          |
-|                                             | ALP (2014 Fed Budget Reply Dinner)                                                | $2,000          |
-|                                             | Liberal Party of Australia (VIC Division) (paid to Higgins 200 Club)              | $2,000          |
-|                                             | Liberal Party Tasmania                                                            | $2,000          |
-|                                             | Australian Labor Party - ALP - (NSW Federal Campaign Account)                     | $2,000          |
-|                                             | LNP - Team Quirk LNP                                                              | $2,000          |
-|                                             | LNP-QLD - Oxley FDC (federal fundraising)                                         | $2,000          |
-|                                             | LIB-VIC - Annual Dinner 2012                                                      | $2,000          |
-|                                             | LNP-QLD - Prentice                                                                | $2,000          |
-|                                             | LNP Wide Bay FDC                                                                  | $2,000          |
-|                                             | Lib - Qld: Tim Mander Dinner                                                      | $2,000          |
+| ALP                                         | Ripon SECC                                                                        | $3,000          |
+| ALP                                         | Melbourne SECC                                                                    | $3,000          |
+| ALP                                         | Mitcham SECC                                                                      | $3,000          |
+| ALP                                         | Seymour SECC                                                                      | $3,000          |
+| ALP                                         | Wills FEA                                                                         | $3,000          |
+| LIB                                         | Liberal Party of Australia Dinner - A. J. Clark AM                                | $3,000          |
+| ALP                                         | United Trade & Labour Council of South Australia                                  | $3,000          |
+| LIB                                         | Liberal Party - Benambra Electorate Council                                       | $3,000          |
+| ALP                                         | Australian Labor Party - Legacies and Gifts Ltd                                   | $3,000          |
+| ARP                                         | Australian Reform Party - NATIONAL                                                | $3,000          |
+| LIB                                         | LIB-NSW Liberal Party of Australia NSW Division                                   | $2,920          |
+| LIB                                         | Liberal Party of Australia SA Division                                            | $2,908          |
+| ALP                                         | Aust Labor Party                                                                  | $2,900          |
+| CLR                                         | Country Labor Party - NSW                                                         | $2,900          |
+| LIB                                         | Higgins 200 Club LIB-VIC                                                          | $2,873          |
+| LIB                                         | Casey Business Briefing - LIB-VIC                                                 | $2,860          |
+| CLR                                         | CLR-NSW                                                                           | $2,850          |
+| LAT                                         | National Party of Australia (S.A.) Inc.                                           | $2,800          |
+| LIB                                         | Liberal Party of Australia - Cook FEC                                             | $2,743          |
+| NAT                                         | Nationls (NSW)                                                                    | $2,727          |
+| LNP                                         | The Platinum Circle (LNP-QLD)                                                     | $2,700          |
+| ALP                                         | ALP New South Wales Branch/ALP-NSW                                                | $2,690          |
+| ALP                                         | ALP - ACT Branch                                                                  | $2,682          |
+| ALP                                         | SA Progressive Business ALP-SA                                                    | $2,640          |
+| LIB                                         | Liberal Party of Australia Hindmarsh FEC LIB                                      | $2,600          |
+| ALP                                         | Tasmanian Labor                                                                   | $2,500          |
+| LIB                                         | Liberal Party Australia LIB-FED                                                   | $2,500          |
+| LIB                                         | Liberal Party of Australia LNP-QLD                                                | $2,500          |
+| LIB                                         | Enterprise 500                                                                    | $2,500          |
+| LIB                                         | LIB-VIC Menzies 200 Club                                                          | $2,500          |
+| LNP                                         | LNP Mt Coot-tha SEC                                                               | $2,500          |
+| LNP                                         | LNP - Gladstone SEC                                                               | $2,500          |
+| ALP                                         | ALP (NSW Branch) Blaxland FCA - ALP-NSW                                           | $2,500          |
+| LIB                                         | Liberal Party Wannon - LIB-VIC                                                    | $2,500          |
+| LIB                                         | Higgins Electorate Conference - LIB-VIC                                           | $2,500          |
+| ALP                                         | Fowler Federal Campaign Account - ALP-NSW                                         | $2,500          |
+| LNP                                         | LNP - LNP Moreton FDC                                                             | $2,500          |
+| ALP                                         | ALP - Fed: Federal Budget Night Dinner                                            | $2,500          |
+| ALP                                         | Australian Labor Party - SA Progressive Business - ALP-SA                         | $2,500          |
+| LIB                                         | Liberal Party Geraldton                                                           | $2,500          |
+| LIB                                         | Baulkham Hills SEC                                                                | $2,500          |
+| LIB                                         | Andrew Constance - LIB - NSW                                                      | $2,500          |
+| ALP                                         | Wollondilly                                                                       | $2,500          |
+| LIB                                         | The Bradfield Forum                                                               | $2,500          |
+| DEM                                         | Australian Democrats - ACT Division                                               | $2,500          |
+| LIB                                         | Liberal Party of Australia - Victoria Division                                    | $2,450          |
+| LIB                                         | Liberal Party of Australia - LIB-NSW                                              | $2,320          |
+| LIB                                         | Liberal Party NSW Division - Paterson                                             | $2,300          |
+| LIB                                         | LIB-VIC - Evening brief - Hockey                                                  | $2,273          |
+| LIB                                         | Liberal Party VIC - Enterprise 500 Victoria                                       | $2,272          |
+| LIB                                         | ENTERPRISE VICTORIA/LIBERAL PARTY LIB-VIC                                         | $2,250          |
+| DLP                                         | Democratic Labor Party (DLP) - Queensland Branch                                  | $2,200          |
+| ALP                                         | Australian Labor Party (Victorian Branch) (paid to Progressive Business)          | $2,200          |
+| ALP                                         | ALP (VIC) (Dinner held by Progressive Business)                                   | $2,200          |
+| ALP                                         | ALP (VIC) (Dinnwe held by Progressive Business)                                   | $2,200          |
+| LNP                                         | LNP-QLD - Function 18/12/13                                                       | $2,200          |
+| ALP                                         | Australian Labor Party NSW Branch Federal Capaign Account - ALP-NSW               | $2,200          |
+| LIB                                         | LIB-TAS - Tasmanian Division                                                      | $2,200          |
+| ALP                                         | ALP-QLD - Queensland Party                                                        | $2,200          |
+| ALP                                         | ALP NSW Branch - Anthony Albanese                                                 | $2,200          |
+| ALP                                         | Austrlaian Labor Party                                                            | $2,200          |
+| ALP                                         | Australian Labor Party (QLD) ALP                                                  | $2,200          |
+| LIB                                         | Liberal Party of Australia - Citizen Din                                          | $2,200          |
+| LIB                                         | Liberal Party of Australia - NSW LIB-NSW                                          | $2,200          |
+| LIB                                         | Casey Business Briefing Club Melbourne - LIB-VIC                                  | $2,200          |
+| ALP                                         | Progressive Business - VIC-EFT                                                    | $2,199          |
+| ALP                                         | Catering for ALP Lunch                                                            | $2,188          |
+| ALP                                         | Sheraton on the Park - Plibersek function - ALP                                   | $2,167          |
+| LIB                                         | Liberal Party of Australia (S.A. Division) / LIB-SA                               | $2,150          |
+| ALP                                         | ALP Bruce FEA                                                                     | $2,145          |
+| LIB                                         | Liberal Party of Australia NSW Division - Bega                                    | $2,100          |
+| LIB                                         | Liberal Party of Australia NSW Division - Mackellar                               | $2,100          |
+| ALP                                         | ALP-VIC - Australian Labor Party (Victorian Branch)                               | $2,100          |
+| LIB                                         | Liberal Party of Aust                                                             | $2,100          |
+| LIB                                         | LPA NSW Division - LIB-NSW                                                        | $2,080          |
+| LIB                                         | LIB -VIC Liberal Party of Australia (Victorian Division)                          | $2,000          |
+| LIB                                         | LIB - NSW (Business event with Minister)                                          | $2,000          |
+| ALP                                         | ALP - FED (Business event with Shadow Ministers)                                  | $2,000          |
+| ALP                                         | ALP FEC LILLEY ALP-QLD                                                            | $2,000          |
+| LIB                                         | Liberal Party of Australia - SA Division (Mayo FEC)                               | $2,000          |
+| LNP                                         | LNP WIDE BAY                                                                      | $2,000          |
+| LIB                                         | Liberal Party of Australia (Victorian Division) Lib VIC                           | $2,000          |
+| LIB                                         | Lib-WA Federal Campaign                                                           | $2,000          |
+| LIB                                         | Liberal Party - VIC Division                                                      | $2,000          |
+| LIB                                         | LPA SA Division                                                                   | $2,000          |
+| ALP                                         | Australian Labor Party (South Australian Branch) (ALP-SA)                         | $2,000          |
+| LIB                                         | LIB-VIC (The Higgins Federal Electorate Conference)                               | $2,000          |
+| LIB                                         | Liberal Party of Australia (Tas Branch)                                           | $2,000          |
+| LNP                                         | LNP Bonner FDC - LIB-NSW                                                          | $2,000          |
+| LIB                                         | LIB-VIC Liberal Party of Victoria (Victorian Division)                            | $2,000          |
+| ALP                                         | ALP (2014 Fed Budget Reply Dinner)                                                | $2,000          |
+| LIB                                         | Liberal Party of Australia (VIC Division) (paid to Higgins 200 Club)              | $2,000          |
+| LIB                                         | Liberal Party Tasmania                                                            | $2,000          |
+| ALP                                         | Australian Labor Party - ALP - (NSW Federal Campaign Account)                     | $2,000          |
+| LNP                                         | LNP - Team Quirk LNP                                                              | $2,000          |
+| LNP                                         | LNP-QLD - Oxley FDC (federal fundraising)                                         | $2,000          |
+| LIB                                         | LIB-VIC - Annual Dinner 2012                                                      | $2,000          |
+| LNP                                         | LNP-QLD - Prentice                                                                | $2,000          |
+| LNP                                         | LNP Wide Bay FDC                                                                  | $2,000          |
+| LIB                                         | Lib - Qld: Tim Mander Dinner                                                      | $2,000          |
 |                                             | ALP- NSW - Hunter Federal Campaign                                                | $2,000          |
 |                                             | ALP-NSW - Fowler Federal Campaign Account                                         | $2,000          |
 |                                             | R Sutton (Nats WA)                                                                | $2,000          |
