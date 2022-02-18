@@ -80,7 +80,8 @@ with open(CURRENT_PATH / "data" / "donors.json") as f:
     DONORS = json.load(f)
 
 EXCLUDE_HANDLES = [
-    h.lower() for h in ["@AusPolDonations", "#auspol", "#DonationsReform"]
+    h.lower()
+    for h in ["@AusPolDonations", "#auspol", "#DonationsReform", "@SomeCompany"]
 ]
 
 
@@ -155,6 +156,10 @@ def reply_to_tweet(id: int, text: str, testing: bool = False) -> None:
     # TODO: clean this up if it looks like combining entities will allow us to fit most
     # cases within a tweet without having to drop contributions before FY 20-21
     combined_donor_data = combine_donor_data(donor_data)
+    # add #auspol hashtag to recipients - which has been stripped out to avoid trying
+    # to match
+    if "#auspol" not in recipients.lower():
+        recipients += " #auspol"
     tweet_text = TEMPLATE.render(donors=combined_donor_data, recipients=recipients)
     if testing:
         print(tweet_text)
