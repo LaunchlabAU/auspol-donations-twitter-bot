@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 from collections import Counter
-from typing import List
+from typing import List, Tuple
 import jinja2
 
 import boto3
@@ -100,9 +100,16 @@ def unformat_money(amount: str) -> int:
     return int(amount.replace("$", "").replace(",", ""))
 
 
-def get_handles_from_tweet(tweet: str) -> List[str]:
+def get_handles_from_tweet(tweet: str) -> Tuple[List[str], List[str]]:
     handles = [word.lower() for word in tweet.split() if word.startswith(("@", "#"))]
-    return [handle for handle in handles if handle not in EXCLUDE_HANDLES]
+    filtered_handles = [handle for handle in handles if handle not in EXCLUDE_HANDLES]
+    # hash tags to add back into response, but not use in lookup
+    add_hashtags = [
+        handle
+        for handle in handles
+        if handle in EXCLUDE_HANDLES and handle.startswith("#")
+    ]
+    return filtered_handles, add_hashtags
 
 
 def clean_donor_name(name: str) -> str:
@@ -130,7 +137,7 @@ def combine_donor_data(donor_data):
 
 
 def reply_to_tweet(id: int, text: str, testing: bool = False) -> None:
-    handles = get_handles_from_tweet(tweet=text)
+    handles, hashtags_to_add_to_response = get_handles_from_tweet(tweet=text)
     if not handles:
         return
     donors_sets_from_handles = [
@@ -158,8 +165,8 @@ def reply_to_tweet(id: int, text: str, testing: bool = False) -> None:
     combined_donor_data = combine_donor_data(donor_data)
     # add #auspol hashtag to recipients - which has been stripped out to avoid trying
     # to match
-    if "#auspol" not in recipients.lower():
-        recipients += " #auspol"
+    for hashtag in hashtags_to_add_to_response:
+        recipients += f" {hashtag}"
     tweet_text = TEMPLATE.render(donors=combined_donor_data, recipients=recipients)
     if testing:
         print(tweet_text)
