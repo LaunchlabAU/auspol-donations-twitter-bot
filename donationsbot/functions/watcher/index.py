@@ -85,6 +85,16 @@ def store_latest_id(latest_id: int) -> None:
 def queue_tweets(tweets: Optional[List[tweepy.Tweet]] = None) -> None:
     if not tweets:
         return
+    # If tweet is a direct reply to our own tweet, then igonre. We're seeing quite often
+    # that someone will reply with e.g. "thanks" and then the bot will try and interpret
+    # that tweet for donations. It could be that someone does actually want more donation
+    # data in the same thread, but at this stage replying to a reply of our own tweet is
+    # more annoying than useful.
+    # TODO: Can we do something more useful here than just exclude tweets which are a
+    # reply to our own?
+    tweets = [t for t in tweets if t.in_reply_to_user_id != TWITTER_ID]
+    if not tweets:
+        return
     messages = [
         {
             "Id": str(tweet.id),
@@ -101,7 +111,10 @@ def queue_tweets(tweets: Optional[List[tweepy.Tweet]] = None) -> None:
 def handler(event: Dict[str, Any], context: LambdaContext) -> None:
     starting_point_kwargs = get_starting_point_kwargs()
     response = tweepy_client.get_users_mentions(
-        id=TWITTER_ID, max_results=MAX_RESULTS_TWITTER, **starting_point_kwargs
+        id=TWITTER_ID,
+        max_results=MAX_RESULTS_TWITTER,
+        expansions=["in_reply_to_user_id"],
+        **starting_point_kwargs,
     )
     if newest_id := response.meta.get("newest_id"):
         store_latest_id(latest_id=int(newest_id))
@@ -111,6 +124,7 @@ def handler(event: Dict[str, Any], context: LambdaContext) -> None:
             id=TWITTER_ID,
             max_results=MAX_RESULTS_TWITTER,
             pagination_token=next_token,
+            expansions=["in_reply_to_user_id"],
             **starting_point_kwargs,
         )
         queue_tweets(response.data)
