@@ -44,12 +44,12 @@ TEMPLATE = jinja2.Template(
 FY 20-21: {% if donor.donations.fy_20_21 %}
 {% for donation in donor.donations.fy_20_21 %}
 {{ donation.0 }} {{ donation.1}}{% endfor %}
-{% else %}Nothing{% endif %}
+{% else %}Nothing reported to AEC{% endif %}
 
 Before 2020: {% if donor.donations.fy_earlier %}
 {% for donation in donor.donations.fy_earlier %}
 {{ donation.0 }} {{ donation.1}}{% endfor %}
-{% else %}Nothing{% endif %}{% endfor %}"""
+{% else %}Nothing reported to AEC{% endif %}{% endfor %}"""
 )
 
 # TODO: show total amount for earlier years.
