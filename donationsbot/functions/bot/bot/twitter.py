@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 from collections import Counter
-from typing import List, Tuple
+from typing import List, Tuple, Optional
 import jinja2
 
 import boto3
@@ -136,7 +136,9 @@ def combine_donor_data(donor_data):
     return [{"name": name, "donations": donations}]
 
 
-def reply_to_tweet(id: int, text: str, testing: bool = False) -> None:
+def reply_to_tweet(
+    id: int, text: str, testing: bool = False, in_reply_to_user_id: Optional[str] = None
+) -> None:
     handles, hashtags_to_add_to_response = get_handles_from_tweet(tweet=text)
     if not handles:
         return
